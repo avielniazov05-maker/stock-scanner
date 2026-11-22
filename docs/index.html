@@ -38,25 +38,13 @@ tr.row.sel{background:#dbe6ff}
 }
 </style></head><body>
 <header><b>סורק תמיכות – מניות אמריקאיות</b></header>
-<section id="fv" style="padding:14px 20px">
-<h2 style="margin:0 0 4px">הרשימות מ-Finviz (חינם)</h2>
-<p style="margin:0 0 12px;color:#445;font-size:14px">כל קישור פותח את הסורק של Finviz עם הפילטר שלך (שווי שוק מעל $2B, מחיר מעל $10, נפח ממוצע מעל 500K, מניות בלבד) והדפוס של Finviz. הרשימה והגרפים הם של Finviz עצמו. בדוק שהפילטרים שמופיעים למעלה בדף Finviz תואמים.</p>
-<div id="fvlist"></div>
-<p style="font-size:12px;color:#667">קודי הפילטרים נכתבו מהזיכרון ולא נבדקו אצלי מול Finviz. אם פילטר לא נטען נכון, שלח לי צילום מסך. Finviz לא מספק ספירת נגיעות; את זה רואים בגרף.</p>
-</section>
-<details id="mine" style="padding:0 20px 10px"><summary style="cursor:pointer;font-weight:700;padding:8px 0">תוצאות הסורק שלי (ניסיוני, לא תואם ל-Finviz)</summary>
+
 <div id="banner"></div><div class="meta" id="meta"></div><div id="dist" style="padding:6px 20px;font-size:14px">מרחק מקסימלי מהתמיכה (סגירה):
  <select id="thr" style="font-size:15px;padding:5px"><option value="0.25">0.25%</option><option value="0.5">0.5%</option><option value="1" selected>1%</option><option value="2">2%</option><option value="3">3%</option><option value="999">הכול</option></select></div>
-<nav id="tabs"></nav><main id="main"></main></details>
+<nav id="tabs"></nav><main id="main"></main>
 <div id="pop"></div>
 <script>
 let D, cur, refresh;
-const FVB='https://finviz.com/screener.ashx?v=211&f=cap_midover,sh_price_o10,sh_avgvol_o500,ind_stocksonly';
-const FVS=[['שלב 1 – תמיכה בתעלה',[['תעלה עולה','ta_pattern_channelup'],['תעלה יורדת','ta_pattern_channeldown'],['תעלה ישרה','ta_pattern_channel'],['תמיכת קו מגמה','ta_pattern_tlsupport']]],
- ['שלב 2 – תמיכה + נר פטיש',[['Horizontal S/R + Hammer','ta_pattern_horizontal,ta_candlestick_h'],['TL Support + Hammer','ta_pattern_tlsupport,ta_candlestick_h']]],
- ['שלב 3 – נגיעות חוזרות בתמיכה',[['Horizontal S/R','ta_pattern_horizontal'],['TL Support','ta_pattern_tlsupport']]],
- ['שלב 4 – תמיכה כפולה/משולשת',[['Double Bottom','ta_pattern_doublebottom'],['Multiple Bottom','ta_pattern_multiplebottom']]]];
-document.getElementById('fvlist').innerHTML=FVS.map(s=>`<div style="background:#fff;border:1px solid #dfe3ea;border-radius:10px;padding:10px 12px;margin-bottom:8px"><b>${s[0]}</b><div style="margin-top:6px;display:flex;flex-wrap:wrap;gap:8px">${s[1].map(x=>`<a href="${FVB},${x[1]}" target="_blank" style="background:#2557d6;color:#fff;text-decoration:none;padding:7px 12px;border-radius:7px;font-size:14px">${x[0]}</a>`).join('')}</div></div>`).join('');
 
 const thr=()=>parseFloat(document.getElementById('thr').value);
 const vis=k=>D.stages[k].filter(r=>Math.abs(r.distance_pct)<=thr());
@@ -85,9 +73,13 @@ function chartRow(i){
  const p=document.getElementById('pop');p.style.display='block';document.body.classList.add('pop-open');        // חלון יחיד: פתיחה חדשה מחליפה את הקודם
  p.innerHTML=`<div class="ph"><b>${r.ticker}</b> · ${r.name} <button onclick="closePop()" title="סגור">✕</button></div>
   ${r.bonus.length?`<div class="pb">בונוס – עובר גם: ${r.bonus.join(', ')}</div>`:''}
+  <div style="font-size:13px;font-weight:700;margin:4px 0">התמיכה שהסורק זיהה (קו כחול):</div>
+  <canvas id="mychart" width="1400" height="560" style="width:100%;height:auto;direction:ltr;background:#fff"></canvas>
+  <div style="font-size:13px;font-weight:700;margin:8px 0 4px">גרף Finviz (הקווים בו הם של Finviz):</div>
   <img alt="${r.ticker} – גרף Finviz" src="https://charts2.finviz.com/chart.ashx?t=${r.ticker}&ty=c&ta=0&p=d&s=l">
   <div class="pf">מחיר ${fmt(r.price)} · תמיכה ${fmt(r.support)} · מרחק ${fmt(r.distance_pct)}% · נגיעות ${r.touches??'-'}<br>
-  הגרף של Finviz עצמו. לא נטען? <a href="${r.finviz}" target="_blank">פתח ב-Finviz</a> · <a href="${r.tradingview}" target="_blank">TradingView</a></div>`}
+  לא נטען? <a href="${r.finviz}" target="_blank">פתח ב-Finviz</a> · <a href="${r.tradingview}" target="_blank">TradingView</a></div>`;
+ draw(document.getElementById('mychart'),r.chart)}
 function closePop(){document.getElementById('pop').style.display='none';document.body.classList.remove('pop-open');
  document.querySelectorAll('tr.row.sel').forEach(x=>x.classList.remove('sel'))}
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closePop()});

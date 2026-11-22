@@ -15,10 +15,14 @@ params:
   pivot_window: 5              # TBD: נר הוא שפל-ציר אם הוא הנמוך ביותר ב-5 נרות לכל צד
   touch_tolerance_pct: 1.0     # TBD: "נגיעה" = הנמוך של הנר בטווח 1% מהתמיכה
   flat_slope_pct: 0.03         # TBD: שיפוע (% ליום) מתחת לערך הזה = תעלה ישרה
-  min_line_touches: 2          # TBD: מינימום שפלי-ציר על קו התמיכה
-  min_line_span_bars: 10       # TBD: מרחק מינימלי (בנרות) בין שתי נקודות שמגדירות קו
+  min_line_touches: 3          # TBD: מינימום נגיעות בקו התחתון (כולל היום)
+  min_line_span_bars: 20       # TBD: מרחק מינימלי (בנרות) בין שתי נקודות שמגדירות קו
+  min_touch_gap_bars: 10       # TBD: מינימום נרות בין שתי נגיעות נפרדות
+  max_touch_days: 5            # TBD: נגיעה שנמשכת יותר נרות = דשדוש על הקו, לא נגיעה
+  min_channel_bars: 40         # TBD: אורך מינימלי של תעלה (מהנגיעה הראשונה עד היום)
+  require_upper_line: true     # תעלה = קו תחתון + קו עליון מקביל
+  min_upper_touches: 2         # TBD: מינימום שיאים על הקו העליון
   min_level_touches: 2         # TBD: מינימום שפלי-ציר שמגדירים רמת תמיכה אופקית (שלב 2)
-  line_lookback_pivots: 6      # TBD: כמה שפלי-ציר אחרונים נבדקים לקו
   hammer_lower_shadow_x: 2.0   # TBD: צל תחתון >= פי 2 מהגוף
   hammer_upper_shadow_max_x: 0.5   # TBD: צל עליון <= חצי מהגוף (או פחות מ-10% מהטווח בגוף זעיר)
   bounce_pct: 3.0              # TBD: "עלה" = עלייה של לפחות 3% מהתמיכה בין נגיעות
