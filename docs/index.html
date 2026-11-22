@@ -47,7 +47,7 @@ tr.row.sel{background:#dbe6ff}
 let D, cur, refresh;
 
 const thr=()=>parseFloat(document.getElementById('thr').value);
-const vis=k=>D.stages[k].filter(r=>Math.abs(r.distance_pct)<=thr());
+const vis=k=>k==='confirmed'?(D.stages[k]||[]):D.stages[k].filter(r=>Math.abs(r.distance_pct)<=thr());
 const fmt=(x,d=2)=>Number(x).toFixed(d);
 fetch('data/results.json?'+Date.now()).then(r=>r.json()).then(d=>{D=d;
  const m=d.meta; if(m.is_sample){const b=document.getElementById('banner');b.style.display='block';
@@ -63,7 +63,7 @@ function show(k){cur=k;closePop();document.querySelectorAll('nav button').forEac
  const rows=vis(k),M=document.getElementById('main');
  if(!rows.length){M.innerHTML='<div class="empty">אין מניות שעוברות את השלב הזה במרחק שנבחר (נסה להגדיל את המרחק).</div>';return}
  M.innerHTML='<table><tr><th>מניה</th><th>מחיר</th><th>תמיכה (חישוב הסורק)</th><th>מרחק %</th><th>נגיעות</th><th>קישורים</th></tr>'+
- rows.map((r,i)=>`<tr class="row" onclick="chartRow(${i})"><td><b>${r.ticker}</b>${r.bonus.map(b=>`<span class="bonus" title="${b}">בונוס</span>`).join('')}${r.kind?` (${r.kind==='double'?'כפולה':'משולשת'})`:''}</td>
+ rows.map((r,i)=>`<tr class="row" onclick="chartRow(${i})"><td><b>${r.ticker}</b>${r.bonus.map(b=>`<span class="bonus" title="${b}">בונוס</span>`).join('')}${r.kind?` (${r.kind==='double'?'כפולה':'משולשת'})`:''}${r.from_stage?`<div style="font-size:12px;color:#667">${r.from_stage}</div>`:''}</td>
  <td data-l="מחיר">${fmt(r.price)}</td><td data-l="תמיכה">${fmt(r.support)}</td><td dir="ltr" data-l="מרחק" style="text-align:right">${fmt(r.distance_pct)}%</td><td data-l="נגיעות">${r.touches??'-'}</td>
  <td data-l="קישורים"><a href="${r.finviz}" target="_blank" onclick="event.stopPropagation()">Finviz</a> · <a href="${r.tradingview}" target="_blank" onclick="event.stopPropagation()">TradingView</a></td></tr>`).join('')+'</table>'}
 function chartRow(i){

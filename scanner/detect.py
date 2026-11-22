@@ -97,7 +97,26 @@ def levels(bars, piv, t, p):
     return out
 
 
-def analyze(bars, p, t=None):
+def confirmed(bars, p, t):
+    """נגיעה בתמיכה בנר t-1 (שלבים 1-3) + נר אישור בנר t."""
+    if t < 1 or not p.get("confirm_enabled", True): return None
+    prev = analyze(bars, p, t - 1, _confirm=False)
+    tol = p["touch_tolerance_pct"] / 100
+    o, h, l, c = bars.o[t], bars.h[t], bars.l[t], bars.c[t]
+    ref = bars.h[t - 1] if p["confirm_mode"] == "close_above_prev_high" else bars.c[t - 1]
+    if not (c > o and c > ref): return None
+    for st in ("stage1_ascending", "stage1_descending", "stage1_flat", "stage2", "stage3"):
+        if st not in prev: continue
+        info = prev[st]; sup = info["support"]
+        if "slope_pct" in info: sup = sup * (1 + info["slope_pct"] / 100)     # הקו ממשיך נר אחד
+        if l < sup * (1 - tol) or c <= sup: continue                           # נר האישור לא שבר את התמיכה
+        (a, va), (b, vb) = info["lines"][0]
+        return dict(price=float(c), support=float(sup), distance_pct=(c - sup) / sup * 100, touches=info["touches"],
+                    from_stage=st, lines=[[(a, va), (t, float(sup))]])
+    return None
+
+
+def analyze(bars, p, t=None, _confirm=True):
     """מחזיר {stage1_ascending|descending|flat, stage2, stage3, stage4: info} לנר t."""
     t = len(bars) - 1 if t is None else t
     if t < 3 * p["pivot_window"]: return {}
@@ -123,4 +142,7 @@ def analyze(bars, p, t=None):
             res.setdefault("stage4", []).append(base(L, touches=n, kind="double" if n == 2 else "triple", lines=seg))
     for k in ("stage2", "stage3", "stage4"):
         if k in res: res[k] = max(res[k], key=lambda r: (r["touches"], -abs(r["distance_pct"])))
+    if _confirm:
+        cf = confirmed(bars, p, t)
+        if cf: res["confirmed"] = cf
     return res

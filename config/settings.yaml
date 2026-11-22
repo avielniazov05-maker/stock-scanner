@@ -25,6 +25,7 @@ params:
   min_level_touches: 2         # TBD: מינימום שפלי-ציר שמגדירים רמת תמיכה אופקית (שלב 2)
   hammer_lower_shadow_x: 2.0   # TBD: צל תחתון >= פי 2 מהגוף
   hammer_upper_shadow_max_x: 0.5   # TBD: צל עליון <= חצי מהגוף (או פחות מ-10% מהטווח בגוף זעיר)
+  confirm_mode: close_above_prev_high   # TBD: נר אישור = נר ירוק שנסגר מעל השיא של נר הנגיעה (או close_above_prev_close)
   bounce_pct: 3.0              # TBD: "עלה" = עלייה של לפחות 3% מהתמיכה בין נגיעות
   stage3_touches: [2, 3, 4]    # כפי שהוגדר
   stage4_proximity_pct: 2.0    # TBD: עד כמה המחיר צריך להיות קרוב לתמיכה כפולה/משולשת

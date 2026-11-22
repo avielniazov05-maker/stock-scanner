@@ -6,7 +6,8 @@ from . import alerts
 
 LABELS = {"stage1_ascending": "שלב 1 – תעלה עולה", "stage1_descending": "שלב 1 – תעלה יורדת",
           "stage1_flat": "שלב 1 – תעלה ישרה", "stage2": "שלב 2 – תמיכה + פטיש",
-          "stage3": "שלב 3 – נגיעות חוזרות", "stage4": "שלב 4 – תמיכה כפולה/משולשת"}
+          "stage3": "שלב 3 – נגיעות חוזרות", "stage4": "שלב 4 – תמיכה כפולה/משולשת",
+          "confirmed": "נר אישור – נגעה אתמול, אישור היום"}
 CHART_BARS = 120
 
 def passes(u, f):
@@ -26,7 +27,7 @@ def main(cfg_path="config/settings.yaml", out="docs/data/results.json", db_path=
     ny = dt.datetime.now(ZoneInfo("America/New_York"))
     if mode == "auto": mode = "open" if ny.hour < 12 else "close"
     cfg = yaml.safe_load(open(cfg_path)); p = dict(cfg["params"])
-    if mode == "open": p["hammer_enabled"] = False     # נר פטיש לא רלוונטי לנר חלקי
+    if mode == "open": p["hammer_enabled"] = False; p["confirm_enabled"] = False   # פטיש/אישור דורשים נר שנסגר
     prov = get_provider(cfg["provider"], cfg); uni = prov.universe()
     kept = [u for u in uni if passes(u, cfg["filter"])]
     results, rows = {}, {k: [] for k in LABELS}
@@ -40,6 +41,7 @@ def main(cfg_path="config/settings.yaml", out="docs/data/results.json", db_path=
         results[u["ticker"]] = res
         for st, info in res.items():
             fv, tv = alerts.links(u["ticker"])
+            if "from_stage" in info: info = dict(info, from_stage=LABELS[info["from_stage"]])
             row = dict(ticker=u["ticker"], name=u["name"], **{k: v for k, v in info.items() if k != "lines"},
                        bonus=[LABELS[o] for o in res if o != st], finviz=fv, tradingview=tv,
                        chart=chart(bars, {st: info}))

@@ -25,7 +25,7 @@ def process(results, labels, db_path, cooldown_days):
     sent = skipped = unsent = 0
     for t, stages in results.items():
         for st, info in stages.items():
-            if not (st.startswith("stage1") or st in ("stage2", "stage3")): continue
+            if not (st.startswith("stage1") or st in ("stage2", "stage3", "confirmed")): continue
             if not due(db, t, st, cooldown_days): skipped += 1; continue
             fv, tv = links(t)
             msg = (f"<b>{t}</b> נוגעת בתמיכה — {labels[st]}\nמחיר: {info['price']:.2f} | תמיכה: {info['support']:.2f} "
