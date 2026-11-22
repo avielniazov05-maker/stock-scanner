@@ -5,7 +5,7 @@ filter:
   min_avg_volume: 500000       # נפח ממוצע מעל 500K
   common_stock_only: true      # מניות רגילות בלבד, בלי ETF
 
-provider: sample               # sample | yahoo_free
+provider: yahoo_free           # sample | yahoo_free
 
 # ===== פרמטרים שדורשים את ההחלטה שלך =====
 # כל ערך כאן הוא ברירת מחדל זמנית (TBD) - לא הומצא כ"נכון". אשר או שנה.
