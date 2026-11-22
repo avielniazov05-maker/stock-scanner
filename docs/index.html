@@ -15,9 +15,17 @@ tr.row{cursor:pointer}tr.row:hover{background:#eef3ff}
 .empty{padding:24px;background:#fff;border:1px dashed #c9ced6;border-radius:8px}
 canvas{background:#fff;width:100%;max-width:820px;height:300px;direction:ltr}
 .meta{color:#667;font-size:13px;padding:0 20px}
+tr.row.sel{background:#dbe6ff}
+#pop{display:none;position:fixed;top:70px;left:16px;width:min(720px,94vw);background:#fff;border:1px solid #9aa3b2;border-radius:10px;box-shadow:0 8px 30px #0004;z-index:10;padding:10px;direction:rtl}
+#pop img{width:100%;direction:ltr;display:block}
+#pop .ph{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px}
+#pop button{border:0;background:#eee;border-radius:6px;padding:4px 10px;cursor:pointer;font-size:16px}
+#pop .pb{background:#f1c40f33;padding:3px 8px;border-radius:5px;font-size:13px;margin-bottom:6px}
+#pop .pf{font-size:13px;color:#445;margin-top:6px}
 </style></head><body>
 <header><b>סורק תמיכות – מניות אמריקאיות</b></header>
 <div id="banner"></div><div class="meta" id="meta"></div><nav id="tabs"></nav><main id="main"></main>
+<div id="pop"></div>
 <script>
 let D, cur;
 const fmt=(x,d=2)=>Number(x).toFixed(d);
@@ -29,21 +37,26 @@ fetch('data/results.json?'+Date.now()).then(r=>r.json()).then(d=>{D=d;
  Object.keys(d.labels).forEach(k=>{const b=document.createElement('button');
   b.textContent=`${d.labels[k]} (${d.stages[k].length})`;b.onclick=()=>show(k);b.dataset.k=k;t.appendChild(b)});
  show(Object.keys(d.labels)[0]);});
-function show(k){cur=k;document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('on',b.dataset.k===k));
+function show(k){cur=k;closePop();document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('on',b.dataset.k===k));
  const rows=D.stages[k],M=document.getElementById('main');
  if(!rows.length){M.innerHTML='<div class="empty">אין מניות שעוברות את השלב הזה בסריקה האחרונה.</div>';return}
  M.innerHTML='<table><tr><th>מניה</th><th>מחיר</th><th>תמיכה (חישוב הסורק)</th><th>מרחק %</th><th>נגיעות</th><th>קישורים</th></tr>'+
  rows.map((r,i)=>`<tr class="row" onclick="chartRow(${i})"><td><b>${r.ticker}</b>${r.bonus.map(b=>`<span class="bonus" title="${b}">בונוס</span>`).join('')}${r.kind?` (${r.kind==='double'?'כפולה':'משולשת'})`:''}</td>
  <td>${fmt(r.price)}</td><td>${fmt(r.support)}</td><td dir="ltr" style="text-align:right">${fmt(r.distance_pct)}%</td><td>${r.touches??'-'}</td>
- <td><a href="${r.finviz}" target="_blank" onclick="event.stopPropagation()">Finviz</a> · <a href="${r.tradingview}" target="_blank" onclick="event.stopPropagation()">TradingView</a></td></tr>
- <tr id="c${i}" style="display:none"><td colspan="6"></td></tr>`).join('')+'</table>'}
-function chartRow(i){const tr=document.getElementById('c'+i);
- if(tr.style.display==='table-row'){tr.style.display='none';return}
- const r=D.stages[cur][i];tr.style.display='table-row';
- const td=tr.firstElementChild;
- td.innerHTML=(r.bonus.length?`<div>בונוס – עובר גם: ${r.bonus.join(', ')}</div>`:'')+
- `<img alt="${r.ticker} – גרף Finviz" style="max-width:100%;direction:ltr" src="https://charts2.finviz.com/chart.ashx?t=${r.ticker}&ty=c&ta=0&p=d&s=l">
-  <div style="font-size:12px;color:#667">הגרף של Finviz עצמו (ללא אינדיקטורים). לא נטען? <a href="${r.finviz}" target="_blank">פתח ב-Finviz</a></div>`}
+ <td><a href="${r.finviz}" target="_blank" onclick="event.stopPropagation()">Finviz</a> · <a href="${r.tradingview}" target="_blank" onclick="event.stopPropagation()">TradingView</a></td></tr>`).join('')+'</table>'}
+function chartRow(i){
+ const r=D.stages[cur][i];
+ document.querySelectorAll('tr.row.sel').forEach(x=>x.classList.remove('sel'));
+ document.querySelectorAll('tr.row')[i].classList.add('sel');
+ const p=document.getElementById('pop');p.style.display='block';        // חלון יחיד: פתיחה חדשה מחליפה את הקודם
+ p.innerHTML=`<div class="ph"><b>${r.ticker}</b> · ${r.name} <button onclick="closePop()" title="סגור">✕</button></div>
+  ${r.bonus.length?`<div class="pb">בונוס – עובר גם: ${r.bonus.join(', ')}</div>`:''}
+  <img alt="${r.ticker} – גרף Finviz" src="https://charts2.finviz.com/chart.ashx?t=${r.ticker}&ty=c&ta=0&p=d&s=l">
+  <div class="pf">מחיר ${fmt(r.price)} · תמיכה ${fmt(r.support)} · מרחק ${fmt(r.distance_pct)}% · נגיעות ${r.touches??'-'}<br>
+  הגרף של Finviz עצמו. לא נטען? <a href="${r.finviz}" target="_blank">פתח ב-Finviz</a> · <a href="${r.tradingview}" target="_blank">TradingView</a></div>`}
+function closePop(){document.getElementById('pop').style.display='none';
+ document.querySelectorAll('tr.row.sel').forEach(x=>x.classList.remove('sel'))}
+document.addEventListener('keydown',e=>{if(e.key==='Escape')closePop()});
 function draw(cv,c){const g=cv.getContext('2d'),W=cv.width,H=cv.height,n=c.candles.length;
  const all=c.candles.flatMap(x=>[x[1],x[2]]).concat(c.lines.flatMap(l=>[l[1],l[3]]));
  const lo=Math.min(...all),hi=Math.max(...all),y=v=>H-20-(v-lo)/(hi-lo||1)*(H-40),x=i=>20+i*(W-40)/n,w=(W-40)/n*.7;
