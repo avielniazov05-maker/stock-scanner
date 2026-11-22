@@ -32,7 +32,7 @@ fetch('data/results.json?'+Date.now()).then(r=>r.json()).then(d=>{D=d;
 function show(k){cur=k;document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('on',b.dataset.k===k));
  const rows=D.stages[k],M=document.getElementById('main');
  if(!rows.length){M.innerHTML='<div class="empty">אין מניות שעוברות את השלב הזה בסריקה האחרונה.</div>';return}
- M.innerHTML='<table><tr><th>מניה</th><th>מחיר</th><th>תמיכה</th><th>מרחק %</th><th>נגיעות</th><th>קישורים</th></tr>'+
+ M.innerHTML='<table><tr><th>מניה</th><th>מחיר</th><th>תמיכה (חישוב הסורק)</th><th>מרחק %</th><th>נגיעות</th><th>קישורים</th></tr>'+
  rows.map((r,i)=>`<tr class="row" onclick="chartRow(${i})"><td><b>${r.ticker}</b>${r.bonus.map(b=>`<span class="bonus" title="${b}">בונוס</span>`).join('')}${r.kind?` (${r.kind==='double'?'כפולה':'משולשת'})`:''}</td>
  <td>${fmt(r.price)}</td><td>${fmt(r.support)}</td><td dir="ltr" style="text-align:right">${fmt(r.distance_pct)}%</td><td>${r.touches??'-'}</td>
  <td><a href="${r.finviz}" target="_blank" onclick="event.stopPropagation()">Finviz</a> · <a href="${r.tradingview}" target="_blank" onclick="event.stopPropagation()">TradingView</a></td></tr>
@@ -40,8 +40,10 @@ function show(k){cur=k;document.querySelectorAll('nav button').forEach(b=>b.clas
 function chartRow(i){const tr=document.getElementById('c'+i);
  if(tr.style.display==='table-row'){tr.style.display='none';return}
  const r=D.stages[cur][i];tr.style.display='table-row';
- const td=tr.firstElementChild;td.innerHTML=(r.bonus.length?`<div>בונוס – עובר גם: ${r.bonus.join(', ')}</div>`:'')+'<canvas width="1640" height="600"></canvas>';
- draw(td.querySelector('canvas'),r.chart)}
+ const td=tr.firstElementChild;
+ td.innerHTML=(r.bonus.length?`<div>בונוס – עובר גם: ${r.bonus.join(', ')}</div>`:'')+
+ `<img alt="${r.ticker} – גרף Finviz" style="max-width:100%;direction:ltr" src="https://charts2.finviz.com/chart.ashx?t=${r.ticker}&ty=c&ta=0&p=d&s=l">
+  <div style="font-size:12px;color:#667">הגרף של Finviz עצמו (ללא אינדיקטורים). לא נטען? <a href="${r.finviz}" target="_blank">פתח ב-Finviz</a></div>`}
 function draw(cv,c){const g=cv.getContext('2d'),W=cv.width,H=cv.height,n=c.candles.length;
  const all=c.candles.flatMap(x=>[x[1],x[2]]).concat(c.lines.flatMap(l=>[l[1],l[3]]));
  const lo=Math.min(...all),hi=Math.max(...all),y=v=>H-20-(v-lo)/(hi-lo||1)*(H-40),x=i=>20+i*(W-40)/n,w=(W-40)/n*.7;
