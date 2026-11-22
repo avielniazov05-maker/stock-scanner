@@ -28,7 +28,7 @@ jobs:
             if [ "$H" -ge 0930 ] && [ "$H" -lt 1100 ] || [ "$H" -ge 1605 ] && [ "$H" -lt 1900 ]; then echo run=1 >> $GITHUB_OUTPUT; else echo "מחוץ לחלון ($H ET)"; fi
           else echo run=1 >> $GITHUB_OUTPUT; fi
       - if: steps.gate.outputs.run == '1'
-        run: python -m scanner.run_scan --mode ${{ inputs.mode || 'auto' }}
+        run: python -m scanner.run_scan --mode ${{ inputs.mode || 'auto' }} ${{ github.event_name == 'workflow_dispatch' && '--force' || '' }}
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
