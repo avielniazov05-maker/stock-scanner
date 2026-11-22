@@ -73,13 +73,9 @@ function chartRow(i){
  const p=document.getElementById('pop');p.style.display='block';document.body.classList.add('pop-open');        // חלון יחיד: פתיחה חדשה מחליפה את הקודם
  p.innerHTML=`<div class="ph"><b>${r.ticker}</b> · ${r.name} <button onclick="closePop()" title="סגור">✕</button></div>
   ${r.bonus.length?`<div class="pb">בונוס – עובר גם: ${r.bonus.join(', ')}</div>`:''}
-  <div style="font-size:13px;font-weight:700;margin:4px 0">התמיכה שהסורק זיהה (קו כחול):</div>
-  <canvas id="mychart" width="1400" height="560" style="width:100%;height:auto;direction:ltr;background:#fff"></canvas>
-  <div style="font-size:13px;font-weight:700;margin:8px 0 4px">גרף Finviz (הקווים בו הם של Finviz):</div>
   <img alt="${r.ticker} – גרף Finviz" src="https://charts2.finviz.com/chart.ashx?t=${r.ticker}&ty=c&ta=0&p=d&s=l">
   <div class="pf">מחיר ${fmt(r.price)} · תמיכה ${fmt(r.support)} · מרחק ${fmt(r.distance_pct)}% · נגיעות ${r.touches??'-'}<br>
-  לא נטען? <a href="${r.finviz}" target="_blank">פתח ב-Finviz</a> · <a href="${r.tradingview}" target="_blank">TradingView</a></div>`;
- draw(document.getElementById('mychart'),r.chart)}
+  לא נטען? <a href="${r.finviz}" target="_blank">פתח ב-Finviz</a> · <a href="${r.tradingview}" target="_blank">TradingView</a></div>`}
 function closePop(){document.getElementById('pop').style.display='none';document.body.classList.remove('pop-open');
  document.querySelectorAll('tr.row.sel').forEach(x=>x.classList.remove('sel'))}
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closePop()});
