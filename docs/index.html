@@ -92,5 +92,5 @@ function draw(cv,c){const g=cv.getContext('2d'),W=cv.width,H=cv.height,n=c.candl
   g.fillRect(x(i),Math.min(y(o),y(cl)),w,Math.max(2,Math.abs(y(o)-y(cl))))});
  g.strokeStyle='#2557d6';g.lineWidth=3;c.lines.forEach(l=>{g.beginPath();g.moveTo(x(l[0])+w/2,y(l[1]));g.lineTo(x(l[2])+w/2,y(l[3]));g.stroke()});
  g.fillStyle='#333';g.font='22px sans-serif';g.fillText(fmt(hi),4,18);g.fillText(fmt(lo),4,H-4);
- g.fillText(c.dates[0],W-170,H-4);g.fillText(c.dates[n-1],60,H-4)}
+ g.fillText(c.dates[0],110,H-4);g.textAlign='right';g.fillText(c.dates[n-1],W-4,H-4);g.textAlign='left'}
 </script></body></html>
