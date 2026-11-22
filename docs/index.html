@@ -24,7 +24,7 @@ const fmt=(x,d=2)=>Number(x).toFixed(d);
 fetch('data/results.json?'+Date.now()).then(r=>r.json()).then(d=>{D=d;
  const m=d.meta; if(m.is_sample){const b=document.getElementById('banner');b.style.display='block';
   b.textContent='⚠ נתוני דוגמה סינתטיים בלבד – לא נתוני שוק אמיתיים. הטיקרים בדויים.';}
- document.getElementById('meta').textContent=`נתונים עד ${m.as_of} · ספק: ${m.provider} · ביקום ${m.universe} מניות, עברו פילטר: ${m.passed_filter}`;
+ document.getElementById('meta').textContent=`${m.mode==='open'?'סריקת פתיחה (נר חלקי, ללא פטיש)':'סריקת סגירה'} · נתונים עד ${m.as_of} · ספק: ${m.provider} · ביקום ${m.universe} מניות, עברו פילטר: ${m.passed_filter}`;
  const t=document.getElementById('tabs');
  Object.keys(d.labels).forEach(k=>{const b=document.createElement('button');
   b.textContent=`${d.labels[k]} (${d.stages[k].length})`;b.onclick=()=>show(k);b.dataset.k=k;t.appendChild(b)});

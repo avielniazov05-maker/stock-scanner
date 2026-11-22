@@ -1,0 +1,570 @@
+﻿stage,ticker,name,price,support,distance_pct,touches,also_in,finviz,tradingview
+שלב 1 – תעלה עולה,PGR,Progressive Corporation (The) Common Stock,231.39,231.39,0.0,3,,https://finviz.com/quote.ashx?t=PGR,https://www.tradingview.com/chart/?symbol=PGR
+שלב 1 – תעלה עולה,DEO,Diageo plc Common Stock,97.07,97.08,-0.01,3,,https://finviz.com/quote.ashx?t=DEO,https://www.tradingview.com/chart/?symbol=DEO
+שלב 1 – תעלה עולה,TRI,Thomson Reuters Corp - Common Shares,101.56,101.54,0.02,3,,https://finviz.com/quote.ashx?t=TRI,https://www.tradingview.com/chart/?symbol=TRI
+שלב 1 – תעלה עולה,TDW,Tidewater Inc. Common Stock,69.0,68.98,0.02,3,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=TDW,https://www.tradingview.com/chart/?symbol=TDW
+שלב 1 – תעלה עולה,EBAY,eBay Inc. - Common Stock,115.59,115.62,-0.02,3,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=EBAY,https://www.tradingview.com/chart/?symbol=EBAY
+שלב 1 – תעלה עולה,ZGN,Ermenegildo Zegna N.V. Ordinary Shares,13.48,13.48,0.03,4,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=ZGN,https://www.tradingview.com/chart/?symbol=ZGN
+שלב 1 – תעלה עולה,VTRS,Viatris Inc. - Common Stock,19.63,19.62,0.03,3,,https://finviz.com/quote.ashx?t=VTRS,https://www.tradingview.com/chart/?symbol=VTRS
+שלב 1 – תעלה עולה,SPOT,Spotify Technology S.A. Ordinary Shares,577.03,577.24,-0.04,3,,https://finviz.com/quote.ashx?t=SPOT,https://www.tradingview.com/chart/?symbol=SPOT
+שלב 1 – תעלה עולה,SEIC,SEI Investments Company - Common Stock,100.75,100.69,0.06,3,,https://finviz.com/quote.ashx?t=SEIC,https://www.tradingview.com/chart/?symbol=SEIC
+שלב 1 – תעלה עולה,STEP,StepStone Group Inc. - Class A Common Stock,41.84,41.81,0.06,3,,https://finviz.com/quote.ashx?t=STEP,https://www.tradingview.com/chart/?symbol=STEP
+שלב 1 – תעלה עולה,EVRG,"Evergy, Inc. - Common Stock",85.93,85.87,0.07,3,,https://finviz.com/quote.ashx?t=EVRG,https://www.tradingview.com/chart/?symbol=EVRG
+שלב 1 – תעלה עולה,PKG,Packaging Corporation of America Common Stock,234.18,234.36,-0.08,3,,https://finviz.com/quote.ashx?t=PKG,https://www.tradingview.com/chart/?symbol=PKG
+שלב 1 – תעלה עולה,P,"Everpure, Inc. Class A common stock",92.05,91.98,0.08,3,שלב 3 – נגיעות חוזרות | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=P,https://www.tradingview.com/chart/?symbol=P
+שלב 1 – תעלה עולה,ARX,Accelerant Holdings Class A Common Shares,19.88,19.89,-0.08,4,שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=ARX,https://www.tradingview.com/chart/?symbol=ARX
+שלב 1 – תעלה עולה,MKTX,"MarketAxess Holdings, Inc. - Common Stock",165.38,165.5,-0.08,4,,https://finviz.com/quote.ashx?t=MKTX,https://www.tradingview.com/chart/?symbol=MKTX
+שלב 1 – תעלה עולה,MDU,"MDU Resources Group, Inc. Common Stock (Holding Company)",18.51,18.53,-0.11,4,שלב 4 – תמיכה כפולה/משולשת | שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=MDU,https://www.tradingview.com/chart/?symbol=MDU
+שלב 1 – תעלה עולה,CASY,"Caseys General Stores, Inc. - Common Stock",691.14,691.93,-0.11,3,,https://finviz.com/quote.ashx?t=CASY,https://www.tradingview.com/chart/?symbol=CASY
+שלב 1 – תעלה עולה,TRP,TC Energy Corporation Common Stock,62.13,62.05,0.12,4,,https://finviz.com/quote.ashx?t=TRP,https://www.tradingview.com/chart/?symbol=TRP
+שלב 1 – תעלה עולה,GFL,"GFL Environmental Inc. Subordinate voting shares, no par value",40.84,40.89,-0.13,4,,https://finviz.com/quote.ashx?t=GFL,https://www.tradingview.com/chart/?symbol=GFL
+שלב 1 – תעלה עולה,WSBC,"WesBanco, Inc. - Common Stock",36.37,36.32,0.14,3,,https://finviz.com/quote.ashx?t=WSBC,https://www.tradingview.com/chart/?symbol=WSBC
+שלב 1 – תעלה עולה,BEPC,Brookfield Renewable Corporation Brookfield Renewable Corporation Class A Subordinate Voting Shares,29.61,29.65,-0.14,4,,https://finviz.com/quote.ashx?t=BEPC,https://www.tradingview.com/chart/?symbol=BEPC
+שלב 1 – תעלה עולה,CNK,"Cinemark Holdings Inc Cinemark Holdings, Inc. Common Stock",38.98,38.92,0.15,3,,https://finviz.com/quote.ashx?t=CNK,https://www.tradingview.com/chart/?symbol=CNK
+שלב 1 – תעלה עולה,ZETA,Zeta Global Holdings Corp. Class A Common Stock,29.51,29.47,0.15,3,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=ZETA,https://www.tradingview.com/chart/?symbol=ZETA
+שלב 1 – תעלה עולה,OVV,Ovintiv Inc. (DE),60.85,60.75,0.17,3,,https://finviz.com/quote.ashx?t=OVV,https://www.tradingview.com/chart/?symbol=OVV
+שלב 1 – תעלה עולה,VCTR,"Victory Capital Holdings, Inc. - Common Stock",110.36,110.17,0.17,4,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=VCTR,https://www.tradingview.com/chart/?symbol=VCTR
+שלב 1 – תעלה עולה,CB,Chubb Limited  Common Stock,371.63,372.31,-0.18,3,,https://finviz.com/quote.ashx?t=CB,https://www.tradingview.com/chart/?symbol=CB
+שלב 1 – תעלה עולה,HGTY,"Hagerty, Inc. Class A Common Stock",16.14,16.17,-0.19,3,,https://finviz.com/quote.ashx?t=HGTY,https://www.tradingview.com/chart/?symbol=HGTY
+שלב 1 – תעלה עולה,AIG,"American International Group, Inc. New Common Stock",79.68,79.49,0.24,3,,https://finviz.com/quote.ashx?t=AIG,https://www.tradingview.com/chart/?symbol=AIG
+שלב 1 – תעלה עולה,FERG,Ferguson Enterprises Inc. Common Stock,240.62,241.2,-0.24,3,,https://finviz.com/quote.ashx?t=FERG,https://www.tradingview.com/chart/?symbol=FERG
+שלב 1 – תעלה עולה,CRGY,Crescent Energy Company Class A Common Stock,10.57,10.6,-0.24,3,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=CRGY,https://www.tradingview.com/chart/?symbol=CRGY
+שלב 1 – תעלה עולה,MTDR,Matador Resources Company Common Stock,48.63,48.51,0.25,3,,https://finviz.com/quote.ashx?t=MTDR,https://www.tradingview.com/chart/?symbol=MTDR
+שלב 1 – תעלה עולה,FE,FirstEnergy Corp. Common Stock,47.03,46.91,0.26,3,,https://finviz.com/quote.ashx?t=FE,https://www.tradingview.com/chart/?symbol=FE
+שלב 1 – תעלה עולה,EPR,EPR Properties Common Stock,58.95,59.11,-0.27,3,,https://finviz.com/quote.ashx?t=EPR,https://www.tradingview.com/chart/?symbol=EPR
+שלב 1 – תעלה עולה,PAY,"Paymentus Holdings, Inc. Class A Common Stock",31.3,31.21,0.28,3,,https://finviz.com/quote.ashx?t=PAY,https://www.tradingview.com/chart/?symbol=PAY
+שלב 1 – תעלה עולה,TECH,Bio-Techne Corp - Common Stock,72.67,72.88,-0.29,6,,https://finviz.com/quote.ashx?t=TECH,https://www.tradingview.com/chart/?symbol=TECH
+שלב 1 – תעלה עולה,BRKR,Bruker Corporation - Common Stock,56.46,56.62,-0.29,5,,https://finviz.com/quote.ashx?t=BRKR,https://www.tradingview.com/chart/?symbol=BRKR
+שלב 1 – תעלה עולה,HLT,Hilton Worldwide Holdings Inc. - Common Stock,356.25,357.31,-0.3,3,,https://finviz.com/quote.ashx?t=HLT,https://www.tradingview.com/chart/?symbol=HLT
+שלב 1 – תעלה עולה,CAKE,The Cheesecake Factory Incorporated - Common Stock,107.95,107.63,0.3,3,,https://finviz.com/quote.ashx?t=CAKE,https://www.tradingview.com/chart/?symbol=CAKE
+שלב 1 – תעלה עולה,FOX,Fox Corporation - Class B Common Stock,56.14,56.32,-0.32,4,,https://finviz.com/quote.ashx?t=FOX,https://www.tradingview.com/chart/?symbol=FOX
+שלב 1 – תעלה עולה,EQNR,Equinor ASA,39.31,39.44,-0.34,3,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=EQNR,https://www.tradingview.com/chart/?symbol=EQNR
+שלב 1 – תעלה עולה,FOXA,Fox Corporation - Class A Common Stock,62.91,63.14,-0.36,4,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=FOXA,https://www.tradingview.com/chart/?symbol=FOXA
+שלב 1 – תעלה עולה,TSLA,"Tesla, Inc.  - Common Stock",345.82,344.56,0.37,3,,https://finviz.com/quote.ashx?t=TSLA,https://www.tradingview.com/chart/?symbol=TSLA
+שלב 1 – תעלה עולה,ALV,"Autoliv, Inc. Common Stock",114.81,115.24,-0.37,3,,https://finviz.com/quote.ashx?t=ALV,https://www.tradingview.com/chart/?symbol=ALV
+שלב 1 – תעלה עולה,VRSN,"VeriSign, Inc. - Common Stock",306.87,305.69,0.38,3,,https://finviz.com/quote.ashx?t=VRSN,https://www.tradingview.com/chart/?symbol=VRSN
+שלב 1 – תעלה עולה,TAP,Molson Coors Beverage Company Class B Common Stock,39.23,39.08,0.39,3,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=TAP,https://www.tradingview.com/chart/?symbol=TAP
+שלב 1 – תעלה עולה,PRM,Perimeter Group Inc. Common Stock,27.55,27.66,-0.39,4,,https://finviz.com/quote.ashx?t=PRM,https://www.tradingview.com/chart/?symbol=PRM
+שלב 1 – תעלה עולה,PAYC,"Paycom Software, Inc. Common Stock",241.64,240.7,0.39,3,,https://finviz.com/quote.ashx?t=PAYC,https://www.tradingview.com/chart/?symbol=PAYC
+שלב 1 – תעלה עולה,SHO,"Sunstone Hotel Investors, Inc. Sunstone Hotel Investors, Inc. Common Shares",12.74,12.69,0.39,3,,https://finviz.com/quote.ashx?t=SHO,https://www.tradingview.com/chart/?symbol=SHO
+שלב 1 – תעלה עולה,HPQ,HP Inc. Common Stock,27.96,27.85,0.4,3,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=HPQ,https://www.tradingview.com/chart/?symbol=HPQ
+שלב 1 – תעלה עולה,CMS,CMS Energy Corporation Common Stock,70.12,70.43,-0.44,3,,https://finviz.com/quote.ashx?t=CMS,https://www.tradingview.com/chart/?symbol=CMS
+שלב 1 – תעלה עולה,TTC,Toro Company (The) Common Stock,100.82,100.36,0.46,3,,https://finviz.com/quote.ashx?t=TTC,https://www.tradingview.com/chart/?symbol=TTC
+שלב 1 – תעלה עולה,CRBG,Corebridge Financial Inc. Common Stock,32.57,32.72,-0.47,4,שלב 3 – נגיעות חוזרות | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=CRBG,https://www.tradingview.com/chart/?symbol=CRBG
+שלב 1 – תעלה עולה,TXNM,"TXNM Energy, Inc. Common Stock",58.9,58.62,0.47,7,,https://finviz.com/quote.ashx?t=TXNM,https://www.tradingview.com/chart/?symbol=TXNM
+שלב 1 – תעלה עולה,PEG,Public Service Enterprise Group Incorporated Common Stock,73.9,73.54,0.49,4,,https://finviz.com/quote.ashx?t=PEG,https://www.tradingview.com/chart/?symbol=PEG
+שלב 1 – תעלה עולה,CP,Canadian Pacific Kansas City Limited Common Shares,89.82,89.37,0.51,3,,https://finviz.com/quote.ashx?t=CP,https://www.tradingview.com/chart/?symbol=CP
+שלב 1 – תעלה עולה,FNV,Franco-Nevada Corporation,223.21,224.39,-0.52,3,,https://finviz.com/quote.ashx?t=FNV,https://www.tradingview.com/chart/?symbol=FNV
+שלב 1 – תעלה עולה,OCTV,Octave Intelligence plc - Class B Ordinary Shares,20.24,20.35,-0.53,3,,https://finviz.com/quote.ashx?t=OCTV,https://www.tradingview.com/chart/?symbol=OCTV
+שלב 1 – תעלה עולה,CVX,Chevron Corporation Common Stock,208.37,207.27,0.53,5,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=CVX,https://www.tradingview.com/chart/?symbol=CVX
+שלב 1 – תעלה עולה,NSC,Norfolk Southern Corporation Common Stock,311.01,309.37,0.53,3,שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=NSC,https://www.tradingview.com/chart/?symbol=NSC
+שלב 1 – תעלה עולה,CNO,"CNO Financial Group, Inc. Common Stock",53.96,53.67,0.54,3,,https://finviz.com/quote.ashx?t=CNO,https://www.tradingview.com/chart/?symbol=CNO
+שלב 1 – תעלה עולה,QCOM,QUALCOMM Incorporated - Common Stock,149.94,149.13,0.54,3,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=QCOM,https://www.tradingview.com/chart/?symbol=QCOM
+שלב 1 – תעלה עולה,NEOG,Neogen Corporation - Common Stock,10.55,10.49,0.55,4,,https://finviz.com/quote.ashx?t=NEOG,https://www.tradingview.com/chart/?symbol=NEOG
+שלב 1 – תעלה עולה,OLLI,"Ollie's Bargain Outlet Holdings, Inc. - Common Stock",90.06,89.55,0.57,3,,https://finviz.com/quote.ashx?t=OLLI,https://www.tradingview.com/chart/?symbol=OLLI
+שלב 1 – תעלה עולה,CNM,"Core & Main, Inc. Class A Common Stock",40.45,40.69,-0.58,3,שלב 3 – נגיעות חוזרות | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=CNM,https://www.tradingview.com/chart/?symbol=CNM
+שלב 1 – תעלה עולה,VRNS,"Varonis Systems, Inc. - Common Stock",49.22,48.93,0.59,3,,https://finviz.com/quote.ashx?t=VRNS,https://www.tradingview.com/chart/?symbol=VRNS
+שלב 1 – תעלה עולה,WAY,Waystar Holding Corp. - Common Stock,26.52,26.36,0.59,3,,https://finviz.com/quote.ashx?t=WAY,https://www.tradingview.com/chart/?symbol=WAY
+שלב 1 – תעלה עולה,PBA,Pembina Pipeline Corp. Ordinary Shares (Canada),48.15,48.44,-0.59,3,,https://finviz.com/quote.ashx?t=PBA,https://www.tradingview.com/chart/?symbol=PBA
+שלב 1 – תעלה עולה,INCY,Incyte Corporation - Common Stock,114.63,115.32,-0.6,3,,https://finviz.com/quote.ashx?t=INCY,https://www.tradingview.com/chart/?symbol=INCY
+שלב 1 – תעלה עולה,HON,Honeywell International Inc. - Common Stock,212.64,211.36,0.6,4,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=HON,https://www.tradingview.com/chart/?symbol=HON
+שלב 1 – תעלה עולה,VMRK,Vivmark Residential Common Shares of Beneficial Interest,63.04,62.66,0.61,3,,https://finviz.com/quote.ashx?t=VMRK,https://www.tradingview.com/chart/?symbol=VMRK
+שלב 1 – תעלה עולה,L,Loews Corporation Common Stock,109.4,108.74,0.61,3,,https://finviz.com/quote.ashx?t=L,https://www.tradingview.com/chart/?symbol=L
+שלב 1 – תעלה עולה,H,Hyatt Hotels Corporation Class A Common Stock,182.01,180.88,0.62,3,,https://finviz.com/quote.ashx?t=H,https://www.tradingview.com/chart/?symbol=H
+שלב 1 – תעלה עולה,TMO,Thermo Fisher Scientific Inc Common Stock,669.54,674.11,-0.68,3,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=TMO,https://www.tradingview.com/chart/?symbol=TMO
+שלב 1 – תעלה עולה,STNG,Scorpio Tankers Inc. Common Shares,78.06,77.51,0.71,4,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=STNG,https://www.tradingview.com/chart/?symbol=STNG
+שלב 1 – תעלה עולה,ADSK,"Autodesk, Inc. - Common Stock",244.48,242.7,0.73,3,,https://finviz.com/quote.ashx?t=ADSK,https://www.tradingview.com/chart/?symbol=ADSK
+שלב 1 – תעלה עולה,KO,Coca-Cola Company (The) Common Stock,96.99,96.28,0.74,4,,https://finviz.com/quote.ashx?t=KO,https://www.tradingview.com/chart/?symbol=KO
+שלב 1 – תעלה עולה,LYV,"Live Nation Entertainment, Inc. Common Stock",174.96,173.64,0.76,4,,https://finviz.com/quote.ashx?t=LYV,https://www.tradingview.com/chart/?symbol=LYV
+שלב 1 – תעלה עולה,LNC,Lincoln National Corporation Common Stock,39.68,39.37,0.77,4,,https://finviz.com/quote.ashx?t=LNC,https://www.tradingview.com/chart/?symbol=LNC
+שלב 1 – תעלה עולה,PR,Permian Resources Corporation Class A Common Stock,21.15,20.98,0.8,4,שלב 3 – נגיעות חוזרות | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=PR,https://www.tradingview.com/chart/?symbol=PR
+שלב 1 – תעלה עולה,FOUR,"Shift4 Payments, Inc. Class A Common Stock",38.07,37.76,0.82,4,,https://finviz.com/quote.ashx?t=FOUR,https://www.tradingview.com/chart/?symbol=FOUR
+שלב 1 – תעלה עולה,ABBV,AbbVie Inc. Common Stock,286.2,283.85,0.83,3,,https://finviz.com/quote.ashx?t=ABBV,https://www.tradingview.com/chart/?symbol=ABBV
+שלב 1 – תעלה עולה,CELH,"Celsius Holdings, Inc. - Common Stock",28.46,28.22,0.86,3,,https://finviz.com/quote.ashx?t=CELH,https://www.tradingview.com/chart/?symbol=CELH
+שלב 1 – תעלה עולה,ESNT,Essent Group Ltd. Common Shares,64.42,63.87,0.86,3,,https://finviz.com/quote.ashx?t=ESNT,https://www.tradingview.com/chart/?symbol=ESNT
+שלב 1 – תעלה עולה,MDLZ,"Mondelez International, Inc. - Class A Common Stock",66.28,65.7,0.88,3,,https://finviz.com/quote.ashx?t=MDLZ,https://www.tradingview.com/chart/?symbol=MDLZ
+שלב 1 – תעלה עולה,ABT,Abbott Laboratories Common Stock,103.0,102.09,0.89,3,,https://finviz.com/quote.ashx?t=ABT,https://www.tradingview.com/chart/?symbol=ABT
+שלב 1 – תעלה עולה,APLE,"Apple Hospitality REIT, Inc. Common Shares",19.0,18.83,0.91,3,,https://finviz.com/quote.ashx?t=APLE,https://www.tradingview.com/chart/?symbol=APLE
+שלב 1 – תעלה עולה,FDX,FedEx Corporation Common Stock,303.99,301.23,0.92,3,,https://finviz.com/quote.ashx?t=FDX,https://www.tradingview.com/chart/?symbol=FDX
+שלב 1 – תעלה עולה,RVTY,"Revvity, Inc. Common Stock",145.22,143.88,0.93,3,,https://finviz.com/quote.ashx?t=RVTY,https://www.tradingview.com/chart/?symbol=RVTY
+שלב 1 – תעלה עולה,NUE,Nucor Corporation Common Stock,239.62,237.41,0.93,3,,https://finviz.com/quote.ashx?t=NUE,https://www.tradingview.com/chart/?symbol=NUE
+שלב 1 – תעלה עולה,MTCH,"Match Group, Inc. - Common Stock",39.13,38.76,0.94,4,,https://finviz.com/quote.ashx?t=MTCH,https://www.tradingview.com/chart/?symbol=MTCH
+שלב 1 – תעלה עולה,AS,"Amer Sports, Inc. Ordinary Shares",28.27,27.99,1.0,3,,https://finviz.com/quote.ashx?t=AS,https://www.tradingview.com/chart/?symbol=AS
+שלב 1 – תעלה עולה,INTU,Intuit Inc. - Common Stock,270.44,267.76,1.0,3,,https://finviz.com/quote.ashx?t=INTU,https://www.tradingview.com/chart/?symbol=INTU
+שלב 1 – תעלה עולה,DTE,DTE Energy Company Common Stock,135.92,134.55,1.01,3,,https://finviz.com/quote.ashx?t=DTE,https://www.tradingview.com/chart/?symbol=DTE
+שלב 1 – תעלה עולה,GCT,GigaCloud Technology Inc - Class A Ordinary Shares,57.82,57.23,1.04,4,,https://finviz.com/quote.ashx?t=GCT,https://www.tradingview.com/chart/?symbol=GCT
+שלב 1 – תעלה עולה,J,Jacobs Solutions Inc. Common Stock,150.62,149.05,1.05,3,,https://finviz.com/quote.ashx?t=J,https://www.tradingview.com/chart/?symbol=J
+שלב 1 – תעלה עולה,UNP,Union Pacific Corporation Common Stock,287.29,284.3,1.05,3,,https://finviz.com/quote.ashx?t=UNP,https://www.tradingview.com/chart/?symbol=UNP
+שלב 1 – תעלה עולה,PK,Park Hotels & Resorts Inc. Common Stock ,15.7,15.54,1.06,5,,https://finviz.com/quote.ashx?t=PK,https://www.tradingview.com/chart/?symbol=PK
+שלב 1 – תעלה עולה,DXCM,"DexCom, Inc. - Common Stock",79.32,78.49,1.06,3,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=DXCM,https://www.tradingview.com/chart/?symbol=DXCM
+שלב 1 – תעלה עולה,CHH,"Choice Hotels International, Inc. Common Stock",117.17,115.86,1.13,3,,https://finviz.com/quote.ashx?t=CHH,https://www.tradingview.com/chart/?symbol=CHH
+שלב 1 – תעלה עולה,RMD,ResMed Inc. Common Stock,235.63,232.93,1.16,4,,https://finviz.com/quote.ashx?t=RMD,https://www.tradingview.com/chart/?symbol=RMD
+שלב 1 – תעלה עולה,CWST,"Casella Waste Systems, Inc. - Class A Common Stock",99.29,98.13,1.18,3,,https://finviz.com/quote.ashx?t=CWST,https://www.tradingview.com/chart/?symbol=CWST
+שלב 1 – תעלה עולה,THC,Tenet Healthcare Corporation Common Stock,263.19,259.93,1.26,3,,https://finviz.com/quote.ashx?t=THC,https://www.tradingview.com/chart/?symbol=THC
+שלב 1 – תעלה עולה,ZBH,"Zimmer Biomet Holdings, Inc. Common Stock",101.1,99.83,1.27,3,,https://finviz.com/quote.ashx?t=ZBH,https://www.tradingview.com/chart/?symbol=ZBH
+שלב 1 – תעלה עולה,CRUS,"Cirrus Logic, Inc. - Common Stock",110.61,109.19,1.3,3,,https://finviz.com/quote.ashx?t=CRUS,https://www.tradingview.com/chart/?symbol=CRUS
+שלב 1 – תעלה עולה,BLK,"BlackRock, Inc. Common Stock",1101.72,1087.03,1.35,4,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=BLK,https://www.tradingview.com/chart/?symbol=BLK
+שלב 1 – תעלה עולה,ANF,Abercrombie & Fitch Company Common Stock,137.92,135.99,1.42,3,,https://finviz.com/quote.ashx?t=ANF,https://www.tradingview.com/chart/?symbol=ANF
+שלב 1 – תעלה עולה,VOYA,"Voya Financial, Inc. Common Stock",95.5,94.15,1.43,4,,https://finviz.com/quote.ashx?t=VOYA,https://www.tradingview.com/chart/?symbol=VOYA
+שלב 1 – תעלה עולה,YUM,"Yum! Brands, Inc.",160.7,158.28,1.53,3,,https://finviz.com/quote.ashx?t=YUM,https://www.tradingview.com/chart/?symbol=YUM
+שלב 1 – תעלה עולה,LTH,"Life Time Group Holdings, Inc. Common Stock",46.33,45.55,1.71,3,,https://finviz.com/quote.ashx?t=LTH,https://www.tradingview.com/chart/?symbol=LTH
+שלב 1 – תעלה עולה,FICO,Fair Isaac Corporation Common Stock,694.31,681.89,1.82,3,,https://finviz.com/quote.ashx?t=FICO,https://www.tradingview.com/chart/?symbol=FICO
+שלב 1 – תעלה עולה,COP,ConocoPhillips Common Stock,136.12,133.59,1.89,3,,https://finviz.com/quote.ashx?t=COP,https://www.tradingview.com/chart/?symbol=COP
+שלב 1 – תעלה עולה,GRAL,"GRAIL, Inc. - Common Stock",99.25,97.39,1.91,3,,https://finviz.com/quote.ashx?t=GRAL,https://www.tradingview.com/chart/?symbol=GRAL
+שלב 1 – תעלה עולה,HUBS,"HubSpot, Inc. Common Stock",193.88,190.23,1.92,3,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=HUBS,https://www.tradingview.com/chart/?symbol=HUBS
+שלב 1 – תעלה עולה,BATRK,"Atlanta Braves Holdings, Inc. - Series C Common Stock",50.93,49.97,1.93,3,,https://finviz.com/quote.ashx?t=BATRK,https://www.tradingview.com/chart/?symbol=BATRK
+שלב 1 – תעלה עולה,APA,APA Corporation - Common Stock,45.03,44.13,2.05,5,,https://finviz.com/quote.ashx?t=APA,https://www.tradingview.com/chart/?symbol=APA
+שלב 1 – תעלה עולה,UHS,"Universal Health Services, Inc. Common Stock",179.43,175.19,2.42,3,,https://finviz.com/quote.ashx?t=UHS,https://www.tradingview.com/chart/?symbol=UHS
+שלב 1 – תעלה עולה,VERX,"Vertex, Inc. - Class A Common Stock",17.23,16.77,2.77,3,,https://finviz.com/quote.ashx?t=VERX,https://www.tradingview.com/chart/?symbol=VERX
+שלב 1 – תעלה עולה,APG,APi Group Corporation Common Stock,42.07,40.89,2.88,3,,https://finviz.com/quote.ashx?t=APG,https://www.tradingview.com/chart/?symbol=APG
+שלב 1 – תעלה עולה,HCA,"HCA Healthcare, Inc. Common Stock",475.57,460.71,3.23,3,,https://finviz.com/quote.ashx?t=HCA,https://www.tradingview.com/chart/?symbol=HCA
+שלב 1 – תעלה עולה,PRGO,Perrigo Company plc Ordinary Shares,15.94,15.43,3.31,3,,https://finviz.com/quote.ashx?t=PRGO,https://www.tradingview.com/chart/?symbol=PRGO
+שלב 1 – תעלה עולה,INTA,"Intapp, Inc. - Common Stock",43.45,40.92,6.18,3,,https://finviz.com/quote.ashx?t=INTA,https://www.tradingview.com/chart/?symbol=INTA
+שלב 1 – תעלה עולה,GPN,Global Payments Inc. Common Stock,91.83,82.9,10.77,5,,https://finviz.com/quote.ashx?t=GPN,https://www.tradingview.com/chart/?symbol=GPN
+שלב 1 – תעלה יורדת,BUSE,First Busey Corporation - Common Stock,27.34,27.34,-0.0,4,,https://finviz.com/quote.ashx?t=BUSE,https://www.tradingview.com/chart/?symbol=BUSE
+שלב 1 – תעלה יורדת,MGA,"Magna International, Inc. Common Stock",58.53,58.54,-0.02,3,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=MGA,https://www.tradingview.com/chart/?symbol=MGA
+שלב 1 – תעלה יורדת,HUBB,Hubbell Inc Common Stock,403.66,403.75,-0.02,5,,https://finviz.com/quote.ashx?t=HUBB,https://www.tradingview.com/chart/?symbol=HUBB
+שלב 1 – תעלה יורדת,ALNY,"Alnylam Pharmaceuticals, Inc. - Common Stock",143.82,143.78,0.03,3,,https://finviz.com/quote.ashx?t=ALNY,https://www.tradingview.com/chart/?symbol=ALNY
+שלב 1 – תעלה יורדת,ORCL,Oracle Corporation Common Stock,101.19,101.16,0.03,4,,https://finviz.com/quote.ashx?t=ORCL,https://www.tradingview.com/chart/?symbol=ORCL
+שלב 1 – תעלה יורדת,HSBC,"HSBC Holdings, plc. Common Stock",80.02,80.05,-0.04,3,,https://finviz.com/quote.ashx?t=HSBC,https://www.tradingview.com/chart/?symbol=HSBC
+שלב 1 – תעלה יורדת,FHB,"First Hawaiian, Inc. - Common Stock",23.1,23.11,-0.04,4,,https://finviz.com/quote.ashx?t=FHB,https://www.tradingview.com/chart/?symbol=FHB
+שלב 1 – תעלה יורדת,SCI,Service Corporation International Common Stock,69.14,69.11,0.04,4,שלב 3 – נגיעות חוזרות | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=SCI,https://www.tradingview.com/chart/?symbol=SCI
+שלב 1 – תעלה יורדת,NU,Nu Holdings Ltd. Class A Ordinary Shares,11.27,11.28,-0.07,3,שלב 3 – נגיעות חוזרות | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=NU,https://www.tradingview.com/chart/?symbol=NU
+שלב 1 – תעלה יורדת,XPO,"XPO, Inc. Common Stock",174.44,174.32,0.07,3,,https://finviz.com/quote.ashx?t=XPO,https://www.tradingview.com/chart/?symbol=XPO
+שלב 1 – תעלה יורדת,F,Ford Motor Company Common Stock,11.17,11.16,0.08,3,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=F,https://www.tradingview.com/chart/?symbol=F
+שלב 1 – תעלה יורדת,ZBRA,Zebra Technologies Corporation - Class A Common Stock,301.53,301.25,0.09,4,,https://finviz.com/quote.ashx?t=ZBRA,https://www.tradingview.com/chart/?symbol=ZBRA
+שלב 1 – תעלה יורדת,WAB,Westinghouse Air Brake Technologies Corporation Common Stock,269.31,269.03,0.1,4,,https://finviz.com/quote.ashx?t=WAB,https://www.tradingview.com/chart/?symbol=WAB
+שלב 1 – תעלה יורדת,COGT,"Cogent Biosciences, Inc. - Common Stock",26.72,26.74,-0.11,3,,https://finviz.com/quote.ashx?t=COGT,https://www.tradingview.com/chart/?symbol=COGT
+שלב 1 – תעלה יורדת,IEX,IDEX Corporation Common Stock,219.64,219.39,0.12,4,שלב 3 – נגיעות חוזרות | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=IEX,https://www.tradingview.com/chart/?symbol=IEX
+שלב 1 – תעלה יורדת,XYZ,"Block, Inc. Class A Common Stock,",69.66,69.75,-0.12,3,,https://finviz.com/quote.ashx?t=XYZ,https://www.tradingview.com/chart/?symbol=XYZ
+שלב 1 – תעלה יורדת,RY,Royal Bank Of Canada Common Stock,183.45,183.22,0.13,3,,https://finviz.com/quote.ashx?t=RY,https://www.tradingview.com/chart/?symbol=RY
+שלב 1 – תעלה יורדת,NWS,News Corporation - Class B Common Stock,27.87,27.91,-0.13,3,שלב 3 – נגיעות חוזרות | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=NWS,https://www.tradingview.com/chart/?symbol=NWS
+שלב 1 – תעלה יורדת,TRMB,Trimble Inc. - Common Stock,50.62,50.69,-0.15,3,,https://finviz.com/quote.ashx?t=TRMB,https://www.tradingview.com/chart/?symbol=TRMB
+שלב 1 – תעלה יורדת,TEL,TE Connectivity plc Ordinary Shares,199.97,199.66,0.16,3,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=TEL,https://www.tradingview.com/chart/?symbol=TEL
+שלב 1 – תעלה יורדת,SON,Sonoco Products Company Common Stock,45.93,46.0,-0.16,4,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=SON,https://www.tradingview.com/chart/?symbol=SON
+שלב 1 – תעלה יורדת,WAL,Western Alliance Bancorporation Common Stock (DE),67.9,68.01,-0.16,3,,https://finviz.com/quote.ashx?t=WAL,https://www.tradingview.com/chart/?symbol=WAL
+שלב 1 – תעלה יורדת,INGR,Ingredion Incorporated Common Stock,89.19,89.04,0.17,4,,https://finviz.com/quote.ashx?t=INGR,https://www.tradingview.com/chart/?symbol=INGR
+שלב 1 – תעלה יורדת,SKE,Skeena Resources Limited Common Shares,23.83,23.87,-0.18,3,,https://finviz.com/quote.ashx?t=SKE,https://www.tradingview.com/chart/?symbol=SKE
+שלב 1 – תעלה יורדת,APH,Amphenol Corporation Common Stock,69.72,69.85,-0.18,4,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=APH,https://www.tradingview.com/chart/?symbol=APH
+שלב 1 – תעלה יורדת,PENG,"Penguin Solutions, Inc. - Common Stock",36.05,35.98,0.18,3,,https://finviz.com/quote.ashx?t=PENG,https://www.tradingview.com/chart/?symbol=PENG
+שלב 1 – תעלה יורדת,MSM,"MSC Industrial Direct Company, Inc. Common Stock",103.13,102.92,0.21,3,,https://finviz.com/quote.ashx?t=MSM,https://www.tradingview.com/chart/?symbol=MSM
+שלב 1 – תעלה יורדת,CRS,Carpenter Technology Corporation Common Stock,254.0,254.55,-0.22,3,,https://finviz.com/quote.ashx?t=CRS,https://www.tradingview.com/chart/?symbol=CRS
+שלב 1 – תעלה יורדת,SYNA,Synaptics Incorporated - Common Stock,115.74,115.49,0.22,3,,https://finviz.com/quote.ashx?t=SYNA,https://www.tradingview.com/chart/?symbol=SYNA
+שלב 1 – תעלה יורדת,JEF,Jefferies Financial Group Inc. Common Stock,38.93,38.84,0.24,3,,https://finviz.com/quote.ashx?t=JEF,https://www.tradingview.com/chart/?symbol=JEF
+שלב 1 – תעלה יורדת,GPC,Genuine Parts Company Common Stock,118.51,118.79,-0.24,4,,https://finviz.com/quote.ashx?t=GPC,https://www.tradingview.com/chart/?symbol=GPC
+שלב 1 – תעלה יורדת,DKNG,DraftKings Inc. - Class A Common Stock,15.8,15.76,0.24,3,,https://finviz.com/quote.ashx?t=DKNG,https://www.tradingview.com/chart/?symbol=DKNG
+שלב 1 – תעלה יורדת,WCC,"WESCO International, Inc. Common Stock",282.04,281.34,0.25,3,,https://finviz.com/quote.ashx?t=WCC,https://www.tradingview.com/chart/?symbol=WCC
+שלב 1 – תעלה יורדת,MS,Morgan Stanley Common Stock,165.67,166.09,-0.26,3,,https://finviz.com/quote.ashx?t=MS,https://www.tradingview.com/chart/?symbol=MS
+שלב 1 – תעלה יורדת,ARW,"Arrow Electronics, Inc. Common Stock",171.79,171.35,0.26,3,,https://finviz.com/quote.ashx?t=ARW,https://www.tradingview.com/chart/?symbol=ARW
+שלב 1 – תעלה יורדת,NFLX,"Netflix, Inc. - Common Stock",56.73,56.58,0.27,4,,https://finviz.com/quote.ashx?t=NFLX,https://www.tradingview.com/chart/?symbol=NFLX
+שלב 1 – תעלה יורדת,BKR,Baker Hughes Company - Common Stock,44.81,44.94,-0.29,3,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=BKR,https://www.tradingview.com/chart/?symbol=BKR
+שלב 1 – תעלה יורדת,HMC,"Honda Motor Company, Ltd. Common Stock",32.58,32.68,-0.31,3,,https://finviz.com/quote.ashx?t=HMC,https://www.tradingview.com/chart/?symbol=HMC
+שלב 1 – תעלה יורדת,ENS,EnerSys Common Stock,124.35,124.73,-0.31,3,,https://finviz.com/quote.ashx?t=ENS,https://www.tradingview.com/chart/?symbol=ENS
+שלב 1 – תעלה יורדת,ONB,Old National Bancorp - Common Stock,23.34,23.27,0.31,3,שלב 3 – נגיעות חוזרות | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=ONB,https://www.tradingview.com/chart/?symbol=ONB
+שלב 1 – תעלה יורדת,HESM,Hess Midstream LP Class A Representing Limited Partner Interests,29.05,28.96,0.31,3,,https://finviz.com/quote.ashx?t=HESM,https://www.tradingview.com/chart/?symbol=HESM
+שלב 1 – תעלה יורדת,KT,KT Corporation Common Stock,16.06,16.11,-0.31,3,,https://finviz.com/quote.ashx?t=KT,https://www.tradingview.com/chart/?symbol=KT
+שלב 1 – תעלה יורדת,PSX,Phillips 66 Common Stock,239.33,238.58,0.32,3,,https://finviz.com/quote.ashx?t=PSX,https://www.tradingview.com/chart/?symbol=PSX
+שלב 1 – תעלה יורדת,BCS,Barclays PLC Common Stock,20.48,20.41,0.32,3,,https://finviz.com/quote.ashx?t=BCS,https://www.tradingview.com/chart/?symbol=BCS
+שלב 1 – תעלה יורדת,CRC,California Resources Corporation Common Stock,43.74,43.6,0.32,4,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=CRC,https://www.tradingview.com/chart/?symbol=CRC
+שלב 1 – תעלה יורדת,CENX,Century Aluminum Company - Common Stock,28.32,28.23,0.32,4,,https://finviz.com/quote.ashx?t=CENX,https://www.tradingview.com/chart/?symbol=CENX
+שלב 1 – תעלה יורדת,BPOP,"Popular, Inc. - Common Stock",143.93,144.41,-0.33,4,שלב 3 – נגיעות חוזרות | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=BPOP,https://www.tradingview.com/chart/?symbol=BPOP
+שלב 1 – תעלה יורדת,ROK,"Rockwell Automation, Inc. Common Stock",361.93,360.72,0.34,5,,https://finviz.com/quote.ashx?t=ROK,https://www.tradingview.com/chart/?symbol=ROK
+שלב 1 – תעלה יורדת,GOOG,Alphabet Inc. - Class C Capital Stock,264.0,263.09,0.35,3,,https://finviz.com/quote.ashx?t=GOOG,https://www.tradingview.com/chart/?symbol=GOOG
+שלב 1 – תעלה יורדת,EXE,Expand Energy Corporation - Common Stock,81.27,81.56,-0.35,4,,https://finviz.com/quote.ashx?t=EXE,https://www.tradingview.com/chart/?symbol=EXE
+שלב 1 – תעלה יורדת,PH,Parker-Hannifin Corporation Common Stock,871.86,868.68,0.37,3,,https://finviz.com/quote.ashx?t=PH,https://www.tradingview.com/chart/?symbol=PH
+שלב 1 – תעלה יורדת,IRM,Iron Mountain Incorporated (Delaware)Common Stock REIT,102.22,101.85,0.37,4,,https://finviz.com/quote.ashx?t=IRM,https://www.tradingview.com/chart/?symbol=IRM
+שלב 1 – תעלה יורדת,MCHB,Mechanics Bancorp - Class A Common Stock,13.92,13.87,0.37,3,,https://finviz.com/quote.ashx?t=MCHB,https://www.tradingview.com/chart/?symbol=MCHB
+שלב 1 – תעלה יורדת,UBER,"Uber Technologies, Inc. Common Stock",63.47,63.71,-0.38,3,,https://finviz.com/quote.ashx?t=UBER,https://www.tradingview.com/chart/?symbol=UBER
+שלב 1 – תעלה יורדת,GNTX,Gentex Corporation - Common Stock,18.75,18.67,0.42,3,,https://finviz.com/quote.ashx?t=GNTX,https://www.tradingview.com/chart/?symbol=GNTX
+שלב 1 – תעלה יורדת,BA,Boeing Company (The) Common Stock,155.89,155.22,0.43,4,,https://finviz.com/quote.ashx?t=BA,https://www.tradingview.com/chart/?symbol=BA
+שלב 1 – תעלה יורדת,CCJ,Cameco Corporation Common Stock,58.0,58.25,-0.44,3,,https://finviz.com/quote.ashx?t=CCJ,https://www.tradingview.com/chart/?symbol=CCJ
+שלב 1 – תעלה יורדת,KTOS,"Kratos Defense & Security Solutions, Inc. - Common Stock",26.89,26.77,0.45,3,,https://finviz.com/quote.ashx?t=KTOS,https://www.tradingview.com/chart/?symbol=KTOS
+שלב 1 – תעלה יורדת,IMAX,Imax Corporation Common Stock,46.13,45.92,0.45,4,,https://finviz.com/quote.ashx?t=IMAX,https://www.tradingview.com/chart/?symbol=IMAX
+שלב 1 – תעלה יורדת,TFSL,TFS Financial Corporation - Common Stock,15.34,15.27,0.45,3,,https://finviz.com/quote.ashx?t=TFSL,https://www.tradingview.com/chart/?symbol=TFSL
+שלב 1 – תעלה יורדת,DCI,"Donaldson Company, Inc. Common Stock",80.85,81.22,-0.45,3,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=DCI,https://www.tradingview.com/chart/?symbol=DCI
+שלב 1 – תעלה יורדת,HAL,Halliburton Company Common Stock,30.53,30.67,-0.47,3,,https://finviz.com/quote.ashx?t=HAL,https://www.tradingview.com/chart/?symbol=HAL
+שלב 1 – תעלה יורדת,LAUR,"Laureate Education, Inc. - Common Stock",32.06,31.91,0.48,4,,https://finviz.com/quote.ashx?t=LAUR,https://www.tradingview.com/chart/?symbol=LAUR
+שלב 1 – תעלה יורדת,FHN,First Horizon Corporation Common Stock,21.76,21.65,0.5,3,,https://finviz.com/quote.ashx?t=FHN,https://www.tradingview.com/chart/?symbol=FHN
+שלב 1 – תעלה יורדת,JCI,Johnson Controls International plc Ordinary Share,130.18,129.49,0.53,4,,https://finviz.com/quote.ashx?t=JCI,https://www.tradingview.com/chart/?symbol=JCI
+שלב 1 – תעלה יורדת,EMN,Eastman Chemical Company Common Stock,58.77,59.09,-0.54,4,,https://finviz.com/quote.ashx?t=EMN,https://www.tradingview.com/chart/?symbol=EMN
+שלב 1 – תעלה יורדת,VLO,Valero Energy Corporation Common Stock,334.18,335.99,-0.54,3,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=VLO,https://www.tradingview.com/chart/?symbol=VLO
+שלב 1 – תעלה יורדת,NTCT,"NetScout Systems, Inc. - Common Stock",30.65,30.47,0.58,3,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=NTCT,https://www.tradingview.com/chart/?symbol=NTCT
+שלב 1 – תעלה יורדת,RRR,"Red Rock Resorts, Inc. - Class A Common Stock",46.09,45.82,0.58,4,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=RRR,https://www.tradingview.com/chart/?symbol=RRR
+שלב 1 – תעלה יורדת,RIO,Rio Tinto Plc Common Stock,72.73,73.19,-0.63,4,,https://finviz.com/quote.ashx?t=RIO,https://www.tradingview.com/chart/?symbol=RIO
+שלב 1 – תעלה יורדת,TT,Trane Technologies plc,386.29,383.83,0.64,4,,https://finviz.com/quote.ashx?t=TT,https://www.tradingview.com/chart/?symbol=TT
+שלב 1 – תעלה יורדת,ENTG,"Entegris, Inc. - Common Stock",124.53,123.73,0.65,4,,https://finviz.com/quote.ashx?t=ENTG,https://www.tradingview.com/chart/?symbol=ENTG
+שלב 1 – תעלה יורדת,RMBS,"Rambus, Inc. - Common Stock",66.35,65.91,0.67,3,,https://finviz.com/quote.ashx?t=RMBS,https://www.tradingview.com/chart/?symbol=RMBS
+שלב 1 – תעלה יורדת,APLD,Applied Digital Corporation - Common Stock,11.49,11.41,0.68,3,,https://finviz.com/quote.ashx?t=APLD,https://www.tradingview.com/chart/?symbol=APLD
+שלב 1 – תעלה יורדת,UBS,UBS Group AG Registered Ordinary Shares,43.32,43.62,-0.68,3,,https://finviz.com/quote.ashx?t=UBS,https://www.tradingview.com/chart/?symbol=UBS
+שלב 1 – תעלה יורדת,MXL,"MaxLinear, Inc - Common Stock",41.45,41.17,0.69,3,,https://finviz.com/quote.ashx?t=MXL,https://www.tradingview.com/chart/?symbol=MXL
+שלב 1 – תעלה יורדת,HXL,Hexcel Corporation Common Stock,72.92,72.42,0.69,3,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=HXL,https://www.tradingview.com/chart/?symbol=HXL
+שלב 1 – תעלה יורדת,ETN,"Eaton Corporation, PLC Ordinary Shares",311.33,309.14,0.71,3,,https://finviz.com/quote.ashx?t=ETN,https://www.tradingview.com/chart/?symbol=ETN
+שלב 1 – תעלה יורדת,CM,Canadian Imperial Bank of Commerce Common Stock,102.84,102.1,0.72,4,,https://finviz.com/quote.ashx?t=CM,https://www.tradingview.com/chart/?symbol=CM
+שלב 1 – תעלה יורדת,AUB,Atlantic Union Bankshares Corporation Common Stock,36.6,36.34,0.73,3,שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=AUB,https://www.tradingview.com/chart/?symbol=AUB
+שלב 1 – תעלה יורדת,CYTK,"Cytokinetics, Incorporated - Common Stock",50.78,50.41,0.73,5,,https://finviz.com/quote.ashx?t=CYTK,https://www.tradingview.com/chart/?symbol=CYTK
+שלב 1 – תעלה יורדת,AEM,Agnico Eagle Mines Limited Common Stock,151.3,150.2,0.73,3,,https://finviz.com/quote.ashx?t=AEM,https://www.tradingview.com/chart/?symbol=AEM
+שלב 1 – תעלה יורדת,DTM,"DT Midstream, Inc. Common Stock ",110.9,110.08,0.74,5,,https://finviz.com/quote.ashx?t=DTM,https://www.tradingview.com/chart/?symbol=DTM
+שלב 1 – תעלה יורדת,FTI,TechnipFMC plc Ordinary Share,58.71,58.28,0.74,5,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=FTI,https://www.tradingview.com/chart/?symbol=FTI
+שלב 1 – תעלה יורדת,SGI,Somnigroup International Inc. Common Stock,57.82,57.38,0.76,5,,https://finviz.com/quote.ashx?t=SGI,https://www.tradingview.com/chart/?symbol=SGI
+שלב 1 – תעלה יורדת,FRPT,"Freshpet, Inc. - Common Stock",62.14,61.67,0.77,3,,https://finviz.com/quote.ashx?t=FRPT,https://www.tradingview.com/chart/?symbol=FRPT
+שלב 1 – תעלה יורדת,NFG,National Fuel Gas Company Common Stock,73.35,72.78,0.78,4,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=NFG,https://www.tradingview.com/chart/?symbol=NFG
+שלב 1 – תעלה יורדת,CSCO,"Cisco Systems, Inc. - Common Stock",90.64,89.93,0.79,4,,https://finviz.com/quote.ashx?t=CSCO,https://www.tradingview.com/chart/?symbol=CSCO
+שלב 1 – תעלה יורדת,IFF,"International Flavors & Fragrances, Inc. Common Stock",79.62,79.0,0.79,4,,https://finviz.com/quote.ashx?t=IFF,https://www.tradingview.com/chart/?symbol=IFF
+שלב 1 – תעלה יורדת,RVMD,"Revolution Medicines, Inc. - Common Stock",161.2,159.94,0.79,5,,https://finviz.com/quote.ashx?t=RVMD,https://www.tradingview.com/chart/?symbol=RVMD
+שלב 1 – תעלה יורדת,WT,"WisdomTree, Inc. Common Stock",18.5,18.35,0.79,3,,https://finviz.com/quote.ashx?t=WT,https://www.tradingview.com/chart/?symbol=WT
+שלב 1 – תעלה יורדת,EGO,Eldorado Gold Corporation Ordinary Shares,24.75,24.55,0.8,3,,https://finviz.com/quote.ashx?t=EGO,https://www.tradingview.com/chart/?symbol=EGO
+שלב 1 – תעלה יורדת,PFG,Principal Financial Group Inc - Common Stock,104.58,103.75,0.8,3,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=PFG,https://www.tradingview.com/chart/?symbol=PFG
+שלב 1 – תעלה יורדת,MPC,Marathon Petroleum Corporation Common Stock,367.19,364.26,0.81,3,,https://finviz.com/quote.ashx?t=MPC,https://www.tradingview.com/chart/?symbol=MPC
+שלב 1 – תעלה יורדת,CDP,COPT Defense Properties Common Shares of Beneficial Interest,31.87,32.14,-0.83,4,,https://finviz.com/quote.ashx?t=CDP,https://www.tradingview.com/chart/?symbol=CDP
+שלב 1 – תעלה יורדת,MGY,Magnolia Oil & Gas Corporation Class A Common Stock,22.84,22.65,0.84,3,,https://finviz.com/quote.ashx?t=MGY,https://www.tradingview.com/chart/?symbol=MGY
+שלב 1 – תעלה יורדת,MLI,"Mueller Industries, Inc. Common Stock",49.85,50.28,-0.86,5,,https://finviz.com/quote.ashx?t=MLI,https://www.tradingview.com/chart/?symbol=MLI
+שלב 1 – תעלה יורדת,STT,State Street Corporation Common Stock,155.38,154.02,0.88,3,,https://finviz.com/quote.ashx?t=STT,https://www.tradingview.com/chart/?symbol=STT
+שלב 1 – תעלה יורדת,OGC,OceanaGold Corporation Common Shares,22.45,22.25,0.89,5,,https://finviz.com/quote.ashx?t=OGC,https://www.tradingview.com/chart/?symbol=OGC
+שלב 1 – תעלה יורדת,ORA,"Ormat Technologies, Inc. Common Stock",83.93,83.19,0.89,3,,https://finviz.com/quote.ashx?t=ORA,https://www.tradingview.com/chart/?symbol=ORA
+שלב 1 – תעלה יורדת,BFH,"Bread Financial Holdings, Inc. Common Stock",92.12,91.31,0.89,3,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=BFH,https://www.tradingview.com/chart/?symbol=BFH
+שלב 1 – תעלה יורדת,SNOW,Snowflake Inc. Common Stock,254.82,252.55,0.9,3,שלב 3 – נגיעות חוזרות | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=SNOW,https://www.tradingview.com/chart/?symbol=SNOW
+שלב 1 – תעלה יורדת,PFS,"Provident Financial Services, Inc Common Stock",21.4,21.21,0.9,4,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=PFS,https://www.tradingview.com/chart/?symbol=PFS
+שלב 1 – תעלה יורדת,EWBC,"East West Bancorp, Inc. - Common Stock",121.54,120.43,0.92,5,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=EWBC,https://www.tradingview.com/chart/?symbol=EWBC
+שלב 1 – תעלה יורדת,AMBA,"Ambarella, Inc. - Ordinary Shares",53.07,52.57,0.95,3,,https://finviz.com/quote.ashx?t=AMBA,https://www.tradingview.com/chart/?symbol=AMBA
+שלב 1 – תעלה יורדת,HOOD,"Robinhood Markets, Inc. - Class A Common Stock",62.17,61.57,0.97,3,,https://finviz.com/quote.ashx?t=HOOD,https://www.tradingview.com/chart/?symbol=HOOD
+שלב 1 – תעלה יורדת,VSAT,"ViaSat, Inc. - Common Stock",56.26,55.7,1.01,4,,https://finviz.com/quote.ashx?t=VSAT,https://www.tradingview.com/chart/?symbol=VSAT
+שלב 1 – תעלה יורדת,GLW,Corning Incorporated Common Stock,94.38,93.41,1.04,3,,https://finviz.com/quote.ashx?t=GLW,https://www.tradingview.com/chart/?symbol=GLW
+שלב 1 – תעלה יורדת,GLNG,Golar LNG Limited - Common Shares,39.08,38.66,1.09,4,,https://finviz.com/quote.ashx?t=GLNG,https://www.tradingview.com/chart/?symbol=GLNG
+שלב 1 – תעלה יורדת,PRIM,Primoris Services Corporation Common Stock,53.6,53.02,1.09,3,,https://finviz.com/quote.ashx?t=PRIM,https://www.tradingview.com/chart/?symbol=PRIM
+שלב 1 – תעלה יורדת,PTCT,"PTC Therapeutics, Inc. - Common Stock",56.42,55.81,1.1,3,,https://finviz.com/quote.ashx?t=PTCT,https://www.tradingview.com/chart/?symbol=PTCT
+שלב 1 – תעלה יורדת,AME,"AMETEK, Inc.",222.9,220.38,1.14,5,שלב 3 – נגיעות חוזרות | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=AME,https://www.tradingview.com/chart/?symbol=AME
+שלב 1 – תעלה יורדת,WLK,Westlake Corporation Common Stock,57.95,57.29,1.14,4,,https://finviz.com/quote.ashx?t=WLK,https://www.tradingview.com/chart/?symbol=WLK
+שלב 1 – תעלה יורדת,HWC,Hancock Whitney Corporation - Common Stock,59.3,58.62,1.16,3,,https://finviz.com/quote.ashx?t=HWC,https://www.tradingview.com/chart/?symbol=HWC
+שלב 1 – תעלה יורדת,BAC,Bank of America Corporation Common Stock,47.04,46.49,1.17,3,,https://finviz.com/quote.ashx?t=BAC,https://www.tradingview.com/chart/?symbol=BAC
+שלב 1 – תעלה יורדת,CSTM,Constellium SE Ordinary Shares (France),19.85,19.62,1.19,6,,https://finviz.com/quote.ashx?t=CSTM,https://www.tradingview.com/chart/?symbol=CSTM
+שלב 1 – תעלה יורדת,SBLK,Star Bulk Carriers Corp. - Common Shares,25.74,25.44,1.2,4,,https://finviz.com/quote.ashx?t=SBLK,https://www.tradingview.com/chart/?symbol=SBLK
+שלב 1 – תעלה יורדת,KMI,"Kinder Morgan, Inc. Common Stock",30.36,29.99,1.24,5,,https://finviz.com/quote.ashx?t=KMI,https://www.tradingview.com/chart/?symbol=KMI
+שלב 1 – תעלה יורדת,JBL,Jabil Inc. Common Stock,225.77,222.99,1.25,4,,https://finviz.com/quote.ashx?t=JBL,https://www.tradingview.com/chart/?symbol=JBL
+שלב 1 – תעלה יורדת,PARR,"Par Pacific Holdings, Inc.  Common Stock",63.53,62.74,1.26,3,,https://finviz.com/quote.ashx?t=PARR,https://www.tradingview.com/chart/?symbol=PARR
+שלב 1 – תעלה יורדת,DLO,DLocal Limited - Class A Common Shares,12.04,11.89,1.27,3,,https://finviz.com/quote.ashx?t=DLO,https://www.tradingview.com/chart/?symbol=DLO
+שלב 1 – תעלה יורדת,TSEM,Tower Semiconductor Ltd. - Ordinary Shares,115.56,114.07,1.31,3,,https://finviz.com/quote.ashx?t=TSEM,https://www.tradingview.com/chart/?symbol=TSEM
+שלב 1 – תעלה יורדת,JXN,Jackson Financial Inc. Class A Common Stock ,127.12,125.48,1.31,4,שלב 3 – נגיעות חוזרות | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=JXN,https://www.tradingview.com/chart/?symbol=JXN
+שלב 1 – תעלה יורדת,AMAT,"Applied Materials, Inc. - Common Stock",302.63,298.19,1.49,3,,https://finviz.com/quote.ashx?t=AMAT,https://www.tradingview.com/chart/?symbol=AMAT
+שלב 1 – תעלה יורדת,BKNG,Booking Holdings Inc. - Common Stock,144.91,142.75,1.51,4,,https://finviz.com/quote.ashx?t=BKNG,https://www.tradingview.com/chart/?symbol=BKNG
+שלב 1 – תעלה יורדת,MDB,"MongoDB, Inc. - Class A Common Stock",285.9,281.46,1.58,3,,https://finviz.com/quote.ashx?t=MDB,https://www.tradingview.com/chart/?symbol=MDB
+שלב 1 – תעלה יורדת,GTES,Gates Industrial Corporation Ltd. Common Shares,22.02,21.68,1.59,3,,https://finviz.com/quote.ashx?t=GTES,https://www.tradingview.com/chart/?symbol=GTES
+שלב 1 – תעלה יורדת,IVZ,Invesco Ltd Common Stock,26.51,26.07,1.67,3,,https://finviz.com/quote.ashx?t=IVZ,https://www.tradingview.com/chart/?symbol=IVZ
+שלב 1 – תעלה יורדת,CVE,Cenovus Energy Inc Common Stock,27.07,26.61,1.73,3,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=CVE,https://www.tradingview.com/chart/?symbol=CVE
+שלב 1 – תעלה יורדת,CGNX,Cognex Corporation - Common Stock,44.36,43.59,1.76,3,,https://finviz.com/quote.ashx?t=CGNX,https://www.tradingview.com/chart/?symbol=CGNX
+שלב 1 – תעלה יורדת,STM,STMicroelectronics N.V. Common Stock,39.11,38.4,1.84,3,,https://finviz.com/quote.ashx?t=STM,https://www.tradingview.com/chart/?symbol=STM
+שלב 1 – תעלה יורדת,TIGO,Millicom International Cellular S.A. - Common Stock,76.24,74.85,1.86,4,,https://finviz.com/quote.ashx?t=TIGO,https://www.tradingview.com/chart/?symbol=TIGO
+שלב 1 – תעלה יורדת,TFPM,Triple Flag Precious Metals Corp. Common Shares,27.15,26.65,1.88,4,שלב 3 – נגיעות חוזרות | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=TFPM,https://www.tradingview.com/chart/?symbol=TFPM
+שלב 1 – תעלה יורדת,DK,"Delek US Holdings, Inc. Common Stock",59.8,58.69,1.9,3,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=DK,https://www.tradingview.com/chart/?symbol=DK
+שלב 1 – תעלה יורדת,GFS,GlobalFoundries Inc. - Ordinary Share,35.56,34.89,1.91,3,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=GFS,https://www.tradingview.com/chart/?symbol=GFS
+שלב 1 – תעלה יורדת,FSLY,"Fastly, Inc. - Class A Common Stock",14.91,14.62,1.97,3,,https://finviz.com/quote.ashx?t=FSLY,https://www.tradingview.com/chart/?symbol=FSLY
+שלב 1 – תעלה יורדת,WSE,Wise Group plc - Class A Ordinary Shares,10.85,10.62,2.18,3,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=WSE,https://www.tradingview.com/chart/?symbol=WSE
+שלב 1 – תעלה יורדת,ALGM,"Allegro MicroSystems, Inc. - Common Stock",25.56,24.93,2.51,5,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=ALGM,https://www.tradingview.com/chart/?symbol=ALGM
+שלב 1 – תעלה יורדת,ASTS,"AST SpaceMobile, Inc. - Class A Common Stock",23.27,22.55,3.2,3,,https://finviz.com/quote.ashx?t=ASTS,https://www.tradingview.com/chart/?symbol=ASTS
+שלב 1 – תעלה יורדת,ROST,"Ross Stores, Inc. - Common Stock",213.46,206.74,3.25,4,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=ROST,https://www.tradingview.com/chart/?symbol=ROST
+שלב 1 – תעלה יורדת,RLAY,"Relay Therapeutics, Inc. - Common Stock",16.12,15.08,6.91,3,,https://finviz.com/quote.ashx?t=RLAY,https://www.tradingview.com/chart/?symbol=RLAY
+שלב 1 – תעלה ישרה,OXY,Occidental Petroleum Corporation Common Stock,53.9,53.87,0.05,4,שלב 3 – נגיעות חוזרות | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=OXY,https://www.tradingview.com/chart/?symbol=OXY
+שלב 1 – תעלה ישרה,PM,Philip Morris International Inc Common Stock,184.09,183.99,0.05,5,,https://finviz.com/quote.ashx?t=PM,https://www.tradingview.com/chart/?symbol=PM
+שלב 1 – תעלה ישרה,NWBI,"Northwest Bancshares, Inc. - Common Stock",14.41,14.42,-0.05,4,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=NWBI,https://www.tradingview.com/chart/?symbol=NWBI
+שלב 1 – תעלה ישרה,DV,"DoubleVerify Holdings, Inc. Common Stock",13.56,13.57,-0.07,7,שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=DV,https://www.tradingview.com/chart/?symbol=DV
+שלב 1 – תעלה ישרה,SLG,SL Green Realty Corp Common Stock,45.11,45.17,-0.13,3,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=SLG,https://www.tradingview.com/chart/?symbol=SLG
+שלב 1 – תעלה ישרה,CLBK,"Columbia Financial, Inc. - Common Stock",10.73,10.74,-0.13,3,שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=CLBK,https://www.tradingview.com/chart/?symbol=CLBK
+שלב 1 – תעלה ישרה,AMP,"Ameriprise Financial, Inc. Common Stock",480.29,479.39,0.19,4,שלב 3 – נגיעות חוזרות | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=AMP,https://www.tradingview.com/chart/?symbol=AMP
+שלב 1 – תעלה ישרה,EQT,EQT Corporation Common Stock,48.89,49.02,-0.26,3,שלב 4 – תמיכה כפולה/משולשת | שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=EQT,https://www.tradingview.com/chart/?symbol=EQT
+שלב 1 – תעלה ישרה,LPLA,LPL Financial Holdings Inc. - Common Stock,264.56,263.87,0.26,3,שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=LPLA,https://www.tradingview.com/chart/?symbol=LPLA
+שלב 1 – תעלה ישרה,DB,Deutsche Bank AG Common Stock,31.4,31.32,0.27,3,שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=DB,https://www.tradingview.com/chart/?symbol=DB
+שלב 1 – תעלה ישרה,OKE,"ONEOK, Inc. Common Stock",84.37,84.15,0.27,4,שלב 3 – נגיעות חוזרות | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=OKE,https://www.tradingview.com/chart/?symbol=OKE
+שלב 1 – תעלה ישרה,MFC,Manulife Financial Corporation Common Stock,40.89,41.0,-0.28,4,,https://finviz.com/quote.ashx?t=MFC,https://www.tradingview.com/chart/?symbol=MFC
+שלב 1 – תעלה ישרה,OC,Owens Corning Inc Common Stock New,110.02,109.65,0.34,3,,https://finviz.com/quote.ashx?t=OC,https://www.tradingview.com/chart/?symbol=OC
+שלב 1 – תעלה ישרה,REXR,"Rexford Industrial Realty, Inc. Common Stock",35.63,35.75,-0.34,4,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=REXR,https://www.tradingview.com/chart/?symbol=REXR
+שלב 1 – תעלה ישרה,SFNC,Simmons First National Corporation - Common Stock,21.56,21.65,-0.44,4,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=SFNC,https://www.tradingview.com/chart/?symbol=SFNC
+שלב 1 – תעלה ישרה,TD,Toronto Dominion Bank (The) Common Stock,112.87,113.46,-0.52,3,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=TD,https://www.tradingview.com/chart/?symbol=TD
+שלב 1 – תעלה ישרה,OGN,Organon & Co. Common Stock ,13.89,13.82,0.52,7,,https://finviz.com/quote.ashx?t=OGN,https://www.tradingview.com/chart/?symbol=OGN
+שלב 1 – תעלה ישרה,EQH,"Equitable Holdings, Inc. Common Stock",50.32,50.01,0.62,3,שלב 3 – נגיעות חוזרות | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=EQH,https://www.tradingview.com/chart/?symbol=EQH
+שלב 1 – תעלה ישרה,HONA,Honeywell Aerospace Inc. - Common Stock,150.71,149.77,0.62,5,שלב 3 – נגיעות חוזרות | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=HONA,https://www.tradingview.com/chart/?symbol=HONA
+שלב 1 – תעלה ישרה,HTGC,"Hercules Capital, Inc. Common Stock",14.97,15.07,-0.66,3,,https://finviz.com/quote.ashx?t=HTGC,https://www.tradingview.com/chart/?symbol=HTGC
+שלב 1 – תעלה ישרה,BWIN,"The Baldwin Insurance Group, Inc. - Class A Common Stock",32.15,31.91,0.74,5,,https://finviz.com/quote.ashx?t=BWIN,https://www.tradingview.com/chart/?symbol=BWIN
+שלב 1 – תעלה ישרה,VNOM,"Viper Energy, Inc.  - Class A Common Stock",39.69,39.4,0.74,4,שלב 3 – נגיעות חוזרות | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=VNOM,https://www.tradingview.com/chart/?symbol=VNOM
+שלב 1 – תעלה ישרה,EPD,Enterprise Products Partners L.P. Common Stock,35.83,35.55,0.79,3,שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=EPD,https://www.tradingview.com/chart/?symbol=EPD
+שלב 1 – תעלה ישרה,HCC,"Warrior Met Coal, Inc. Common Stock",76.56,75.89,0.89,3,שלב 3 – נגיעות חוזרות | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=HCC,https://www.tradingview.com/chart/?symbol=HCC
+שלב 1 – תעלה ישרה,HLNE,Hamilton Lane Incorporated - Class A Common Stock,81.07,80.3,0.95,4,שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=HLNE,https://www.tradingview.com/chart/?symbol=HLNE
+שלב 1 – תעלה ישרה,AES,The AES Corporation Common Stock,15.02,14.87,1.0,7,שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=AES,https://www.tradingview.com/chart/?symbol=AES
+שלב 1 – תעלה ישרה,EGP,"EastGroup Properties, Inc. Common Stock",191.7,189.81,1.0,3,,https://finviz.com/quote.ashx?t=EGP,https://www.tradingview.com/chart/?symbol=EGP
+שלב 1 – תעלה ישרה,MMSI,"Merit Medical Systems, Inc. - Common Stock",84.34,83.33,1.21,4,שלב 3 – נגיעות חוזרות | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=MMSI,https://www.tradingview.com/chart/?symbol=MMSI
+שלב 1 – תעלה ישרה,GRMN,Garmin Ltd. Common Stock (Switzerland),268.04,264.36,1.39,3,שלב 3 – נגיעות חוזרות | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=GRMN,https://www.tradingview.com/chart/?symbol=GRMN
+שלב 1 – תעלה ישרה,XOM,ExxonMobil Holdings Corporation Common Stock,159.99,157.27,1.73,3,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=XOM,https://www.tradingview.com/chart/?symbol=XOM
+שלב 1 – תעלה ישרה,MPWR,"Monolithic Power Systems, Inc. - Common Stock",1142.05,1122.3,1.76,4,שלב 3 – נגיעות חוזרות | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=MPWR,https://www.tradingview.com/chart/?symbol=MPWR
+שלב 1 – תעלה ישרה,ERAS,"Erasca, Inc. - Common Stock",13.61,13.12,3.75,3,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=ERAS,https://www.tradingview.com/chart/?symbol=ERAS
+שלב 3 – נגיעות חוזרות,CNH,CNH Industrial N.V. Common Shares,10.74,10.74,0.0,2,,https://finviz.com/quote.ashx?t=CNH,https://www.tradingview.com/chart/?symbol=CNH
+שלב 3 – נגיעות חוזרות,ECHO,EchoStar Corporation - Common stock,84.26,84.26,0.0,2,,https://finviz.com/quote.ashx?t=ECHO,https://www.tradingview.com/chart/?symbol=ECHO
+שלב 3 – נגיעות חוזרות,SRAD,Sportradar Group AG - Class A Ordinary Shares,11.4,11.4,-0.0,4,,https://finviz.com/quote.ashx?t=SRAD,https://www.tradingview.com/chart/?symbol=SRAD
+שלב 3 – נגיעות חוזרות,HCC,"Warrior Met Coal, Inc. Common Stock",76.56,76.57,-0.02,2,שלב 1 – תעלה ישרה | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=HCC,https://www.tradingview.com/chart/?symbol=HCC
+שלב 3 – נגיעות חוזרות,EQNR,Equinor ASA,39.31,39.3,0.03,2,שלב 1 – תעלה עולה,https://finviz.com/quote.ashx?t=EQNR,https://www.tradingview.com/chart/?symbol=EQNR
+שלב 3 – נגיעות חוזרות,A,"Agilent Technologies, Inc. Common Stock",170.38,170.33,0.03,3,שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=A,https://www.tradingview.com/chart/?symbol=A
+שלב 3 – נגיעות חוזרות,NTR,Nutrien Ltd. Common Shares,63.84,63.81,0.04,2,,https://finviz.com/quote.ashx?t=NTR,https://www.tradingview.com/chart/?symbol=NTR
+שלב 3 – נגיעות חוזרות,SON,Sonoco Products Company Common Stock,45.93,45.91,0.04,2,שלב 1 – תעלה יורדת,https://finviz.com/quote.ashx?t=SON,https://www.tradingview.com/chart/?symbol=SON
+שלב 3 – נגיעות חוזרות,SRE,DBA Sempra Common Stock,76.16,76.21,-0.07,2,,https://finviz.com/quote.ashx?t=SRE,https://www.tradingview.com/chart/?symbol=SRE
+שלב 3 – נגיעות חוזרות,FTI,TechnipFMC plc Ordinary Share,58.71,58.67,0.07,2,שלב 1 – תעלה יורדת,https://finviz.com/quote.ashx?t=FTI,https://www.tradingview.com/chart/?symbol=FTI
+שלב 3 – נגיעות חוזרות,LYB,LyondellBasell Industries NV Ordinary Shares Class A (Netherlands),55.84,55.88,-0.07,2,,https://finviz.com/quote.ashx?t=LYB,https://www.tradingview.com/chart/?symbol=LYB
+שלב 3 – נגיעות חוזרות,XOM,ExxonMobil Holdings Corporation Common Stock,159.99,160.11,-0.07,2,שלב 1 – תעלה ישרה,https://finviz.com/quote.ashx?t=XOM,https://www.tradingview.com/chart/?symbol=XOM
+שלב 3 – נגיעות חוזרות,PFG,Principal Financial Group Inc - Common Stock,104.58,104.66,-0.08,2,שלב 1 – תעלה יורדת,https://finviz.com/quote.ashx?t=PFG,https://www.tradingview.com/chart/?symbol=PFG
+שלב 3 – נגיעות חוזרות,SAN,"Banco Santander, S.A. Sponsored ADR (Spain)",11.11,11.12,-0.09,2,,https://finviz.com/quote.ashx?t=SAN,https://www.tradingview.com/chart/?symbol=SAN
+שלב 3 – נגיעות חוזרות,PFS,"Provident Financial Services, Inc Common Stock",21.4,21.42,-0.09,3,שלב 1 – תעלה יורדת,https://finviz.com/quote.ashx?t=PFS,https://www.tradingview.com/chart/?symbol=PFS
+שלב 3 – נגיעות חוזרות,MO,"Altria Group, Inc.",74.87,74.8,0.09,2,,https://finviz.com/quote.ashx?t=MO,https://www.tradingview.com/chart/?symbol=MO
+שלב 3 – נגיעות חוזרות,CRGY,Crescent Energy Company Class A Common Stock,10.57,10.56,0.09,2,שלב 1 – תעלה עולה,https://finviz.com/quote.ashx?t=CRGY,https://www.tradingview.com/chart/?symbol=CRGY
+שלב 3 – נגיעות חוזרות,AME,"AMETEK, Inc.",222.9,223.12,-0.1,3,שלב 1 – תעלה יורדת | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=AME,https://www.tradingview.com/chart/?symbol=AME
+שלב 3 – נגיעות חוזרות,NE,Noble Corporation plc A Ordinary Shares,36.72,36.76,-0.11,2,,https://finviz.com/quote.ashx?t=NE,https://www.tradingview.com/chart/?symbol=NE
+שלב 3 – נגיעות חוזרות,TSM,Taiwan Semiconductor Manufacturing Company Ltd.,318.71,319.07,-0.11,2,,https://finviz.com/quote.ashx?t=TSM,https://www.tradingview.com/chart/?symbol=TSM
+שלב 3 – נגיעות חוזרות,EQT,EQT Corporation Common Stock,48.89,48.83,0.12,4,שלב 1 – תעלה ישרה | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=EQT,https://www.tradingview.com/chart/?symbol=EQT
+שלב 3 – נגיעות חוזרות,CMBT,CMB.TECH NV Ordinary Shares,16.11,16.13,-0.12,2,,https://finviz.com/quote.ashx?t=CMBT,https://www.tradingview.com/chart/?symbol=CMBT
+שלב 3 – נגיעות חוזרות,EBAY,eBay Inc. - Common Stock,115.59,115.76,-0.15,2,שלב 1 – תעלה עולה,https://finviz.com/quote.ashx?t=EBAY,https://www.tradingview.com/chart/?symbol=EBAY
+שלב 3 – נגיעות חוזרות,ALLE,Allegion plc Ordinary Shares,183.61,183.9,-0.16,2,,https://finviz.com/quote.ashx?t=ALLE,https://www.tradingview.com/chart/?symbol=ALLE
+שלב 3 – נגיעות חוזרות,MAN,ManpowerGroup Common Stock,43.95,44.02,-0.16,2,,https://finviz.com/quote.ashx?t=MAN,https://www.tradingview.com/chart/?symbol=MAN
+שלב 3 – נגיעות חוזרות,P,"Everpure, Inc. Class A common stock",92.05,91.9,0.16,3,שלב 1 – תעלה עולה | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=P,https://www.tradingview.com/chart/?symbol=P
+שלב 3 – נגיעות חוזרות,APH,Amphenol Corporation Common Stock,69.72,69.83,-0.16,2,שלב 1 – תעלה יורדת,https://finviz.com/quote.ashx?t=APH,https://www.tradingview.com/chart/?symbol=APH
+שלב 3 – נגיעות חוזרות,TD,Toronto Dominion Bank (The) Common Stock,112.87,112.67,0.18,2,שלב 1 – תעלה ישרה,https://finviz.com/quote.ashx?t=TD,https://www.tradingview.com/chart/?symbol=TD
+שלב 3 – נגיעות חוזרות,MTG,MGIC Investment Corporation Common Stock,26.68,26.73,-0.19,2,,https://finviz.com/quote.ashx?t=MTG,https://www.tradingview.com/chart/?symbol=MTG
+שלב 3 – נגיעות חוזרות,VNOM,"Viper Energy, Inc.  - Class A Common Stock",39.69,39.61,0.19,3,שלב 1 – תעלה ישרה | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=VNOM,https://www.tradingview.com/chart/?symbol=VNOM
+שלב 3 – נגיעות חוזרות,SGHC,Super Group (SGHC) Limited Ordinary Shares,10.25,10.23,0.2,3,שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=SGHC,https://www.tradingview.com/chart/?symbol=SGHC
+שלב 3 – נגיעות חוזרות,NWS,News Corporation - Class B Common Stock,27.87,27.82,0.2,3,שלב 1 – תעלה יורדת | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=NWS,https://www.tradingview.com/chart/?symbol=NWS
+שלב 3 – נגיעות חוזרות,OKE,"ONEOK, Inc. Common Stock",84.37,84.2,0.2,3,שלב 1 – תעלה ישרה | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=OKE,https://www.tradingview.com/chart/?symbol=OKE
+שלב 3 – נגיעות חוזרות,SWKS,"Skyworks Solutions, Inc. - Common Stock",73.91,73.76,0.2,2,,https://finviz.com/quote.ashx?t=SWKS,https://www.tradingview.com/chart/?symbol=SWKS
+שלב 3 – נגיעות חוזרות,ESI,Element Solutions Inc. Common Stock,29.52,29.46,0.2,2,,https://finviz.com/quote.ashx?t=ESI,https://www.tradingview.com/chart/?symbol=ESI
+שלב 3 – נגיעות חוזרות,DECK,Deckers Outdoor Corporation Common Stock,77.94,78.12,-0.23,2,שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=DECK,https://www.tradingview.com/chart/?symbol=DECK
+שלב 3 – נגיעות חוזרות,CNP,"CenterPoint Energy, Inc (Holding Co) Common Stock",39.11,39.02,0.23,2,,https://finviz.com/quote.ashx?t=CNP,https://www.tradingview.com/chart/?symbol=CNP
+שלב 3 – נגיעות חוזרות,VLO,Valero Energy Corporation Common Stock,334.18,335.0,-0.24,2,שלב 1 – תעלה יורדת,https://finviz.com/quote.ashx?t=VLO,https://www.tradingview.com/chart/?symbol=VLO
+שלב 3 – נגיעות חוזרות,MC,Moelis & Company Class A Common Stock,51.35,51.22,0.25,3,שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=MC,https://www.tradingview.com/chart/?symbol=MC
+שלב 3 – נגיעות חוזרות,SHOP,Shopify Inc. - Class A Subordinate Voting Shares,123.72,124.03,-0.25,2,,https://finviz.com/quote.ashx?t=SHOP,https://www.tradingview.com/chart/?symbol=SHOP
+שלב 3 – נגיעות חוזרות,KEY,KeyCorp Common Stock,19.45,19.5,-0.26,2,שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=KEY,https://www.tradingview.com/chart/?symbol=KEY
+שלב 3 – נגיעות חוזרות,OXY,Occidental Petroleum Corporation Common Stock,53.9,53.76,0.27,4,שלב 1 – תעלה ישרה | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=OXY,https://www.tradingview.com/chart/?symbol=OXY
+שלב 3 – נגיעות חוזרות,RH,RH Common Stock,107.94,107.64,0.28,2,,https://finviz.com/quote.ashx?t=RH,https://www.tradingview.com/chart/?symbol=RH
+שלב 3 – נגיעות חוזרות,AMP,"Ameriprise Financial, Inc. Common Stock",480.29,478.95,0.28,4,שלב 1 – תעלה ישרה | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=AMP,https://www.tradingview.com/chart/?symbol=AMP
+שלב 3 – נגיעות חוזרות,GDDY,GoDaddy Inc. Class A Common Stock,99.53,99.82,-0.29,2,,https://finviz.com/quote.ashx?t=GDDY,https://www.tradingview.com/chart/?symbol=GDDY
+שלב 3 – נגיעות חוזרות,FAST,Fastenal Company - Common Stock,50.61,50.76,-0.3,2,,https://finviz.com/quote.ashx?t=FAST,https://www.tradingview.com/chart/?symbol=FAST
+שלב 3 – נגיעות חוזרות,KRMN,Karman Holdings Inc. Common Stock,29.25,29.34,-0.31,2,,https://finviz.com/quote.ashx?t=KRMN,https://www.tradingview.com/chart/?symbol=KRMN
+שלב 3 – נגיעות חוזרות,IEX,IDEX Corporation Common Stock,219.64,218.95,0.32,3,שלב 1 – תעלה יורדת | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=IEX,https://www.tradingview.com/chart/?symbol=IEX
+שלב 3 – נגיעות חוזרות,LIF,"Life360, Inc. - Common Stock",39.51,39.39,0.32,3,שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=LIF,https://www.tradingview.com/chart/?symbol=LIF
+שלב 3 – נגיעות חוזרות,NP,Neptune Insurance Holdings Inc. Class A Common Stock,27.63,27.72,-0.32,2,,https://finviz.com/quote.ashx?t=NP,https://www.tradingview.com/chart/?symbol=NP
+שלב 3 – נגיעות חוזרות,NTCT,"NetScout Systems, Inc. - Common Stock",30.65,30.75,-0.33,2,שלב 1 – תעלה יורדת,https://finviz.com/quote.ashx?t=NTCT,https://www.tradingview.com/chart/?symbol=NTCT
+שלב 3 – נגיעות חוזרות,SFNC,Simmons First National Corporation - Common Stock,21.56,21.49,0.33,2,שלב 1 – תעלה ישרה,https://finviz.com/quote.ashx?t=SFNC,https://www.tradingview.com/chart/?symbol=SFNC
+שלב 3 – נגיעות חוזרות,HON,Honeywell International Inc. - Common Stock,212.64,211.94,0.33,2,שלב 1 – תעלה עולה,https://finviz.com/quote.ashx?t=HON,https://www.tradingview.com/chart/?symbol=HON
+שלב 3 – נגיעות חוזרות,BLK,"BlackRock, Inc. Common Stock",1101.72,1105.47,-0.34,2,שלב 1 – תעלה עולה,https://finviz.com/quote.ashx?t=BLK,https://www.tradingview.com/chart/?symbol=BLK
+שלב 3 – נגיעות חוזרות,TTEK,"Tetra Tech, Inc. - Common Stock",36.95,37.08,-0.35,2,,https://finviz.com/quote.ashx?t=TTEK,https://www.tradingview.com/chart/?symbol=TTEK
+שלב 3 – נגיעות חוזרות,LINE,"Lineage, Inc. - Common Stock",31.22,31.33,-0.35,2,,https://finviz.com/quote.ashx?t=LINE,https://www.tradingview.com/chart/?symbol=LINE
+שלב 3 – נגיעות חוזרות,PAGP,"Plains GP Holdings, L.P. - Class A Shares representing limited partner interests",25.53,25.62,-0.35,2,,https://finviz.com/quote.ashx?t=PAGP,https://www.tradingview.com/chart/?symbol=PAGP
+שלב 3 – נגיעות חוזרות,CELC,Celcuity Inc. - Common Stock,53.35,53.54,-0.35,2,,https://finviz.com/quote.ashx?t=CELC,https://www.tradingview.com/chart/?symbol=CELC
+שלב 3 – נגיעות חוזרות,HII,"Huntington Ingalls Industries, Inc. Common Stock",280.34,281.34,-0.36,2,,https://finviz.com/quote.ashx?t=HII,https://www.tradingview.com/chart/?symbol=HII
+שלב 3 – נגיעות חוזרות,SLG,SL Green Realty Corp Common Stock,45.11,44.95,0.36,2,שלב 1 – תעלה ישרה,https://finviz.com/quote.ashx?t=SLG,https://www.tradingview.com/chart/?symbol=SLG
+שלב 3 – נגיעות חוזרות,TEX,Terex Corporation Common Stock,50.24,50.06,0.36,2,,https://finviz.com/quote.ashx?t=TEX,https://www.tradingview.com/chart/?symbol=TEX
+שלב 3 – נגיעות חוזרות,DCI,"Donaldson Company, Inc. Common Stock",80.85,80.56,0.36,2,שלב 1 – תעלה יורדת,https://finviz.com/quote.ashx?t=DCI,https://www.tradingview.com/chart/?symbol=DCI
+שלב 3 – נגיעות חוזרות,LRN,"Stride, Inc. Common Stock",74.58,74.29,0.38,3,שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=LRN,https://www.tradingview.com/chart/?symbol=LRN
+שלב 3 – נגיעות חוזרות,RNST,Renasant Corporation Common Stock,38.79,38.64,0.39,3,שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=RNST,https://www.tradingview.com/chart/?symbol=RNST
+שלב 3 – נגיעות חוזרות,HSIC,"Henry Schein, Inc. - Common Stock",83.52,83.19,0.4,2,,https://finviz.com/quote.ashx?t=HSIC,https://www.tradingview.com/chart/?symbol=HSIC
+שלב 3 – נגיעות חוזרות,KLAR,Klarna Group plc Ordinary Shares,12.01,12.06,-0.41,2,,https://finviz.com/quote.ashx?t=KLAR,https://www.tradingview.com/chart/?symbol=KLAR
+שלב 3 – נגיעות חוזרות,LTC,"LTC Properties, Inc. Common Stock",42.24,42.06,0.43,3,שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=LTC,https://www.tradingview.com/chart/?symbol=LTC
+שלב 3 – נגיעות חוזרות,TTAN,"ServiceTitan, Inc. - Class A Common Stock",76.23,76.56,-0.43,2,,https://finviz.com/quote.ashx?t=TTAN,https://www.tradingview.com/chart/?symbol=TTAN
+שלב 3 – נגיעות חוזרות,RRR,"Red Rock Resorts, Inc. - Class A Common Stock",46.09,46.29,-0.43,2,שלב 1 – תעלה יורדת,https://finviz.com/quote.ashx?t=RRR,https://www.tradingview.com/chart/?symbol=RRR
+שלב 3 – נגיעות חוזרות,FTV,Fortive Corporation Common Stock ,64.16,64.44,-0.43,2,,https://finviz.com/quote.ashx?t=FTV,https://www.tradingview.com/chart/?symbol=FTV
+שלב 3 – נגיעות חוזרות,ENB,Enbridge Inc Common Stock,45.69,45.49,0.44,2,,https://finviz.com/quote.ashx?t=ENB,https://www.tradingview.com/chart/?symbol=ENB
+שלב 3 – נגיעות חוזרות,AXP,American Express Company Common Stock,301.7,303.04,-0.44,2,שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=AXP,https://www.tradingview.com/chart/?symbol=AXP
+שלב 3 – נגיעות חוזרות,INTC,Intel Corporation - Common Stock,51.28,51.51,-0.45,2,,https://finviz.com/quote.ashx?t=INTC,https://www.tradingview.com/chart/?symbol=INTC
+שלב 3 – נגיעות חוזרות,FBK,FB Financial Corporation Common Stock,51.07,50.84,0.45,3,שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=FBK,https://www.tradingview.com/chart/?symbol=FBK
+שלב 3 – נגיעות חוזרות,NFG,National Fuel Gas Company Common Stock,73.35,73.01,0.47,2,שלב 1 – תעלה יורדת,https://finviz.com/quote.ashx?t=NFG,https://www.tradingview.com/chart/?symbol=NFG
+שלב 3 – נגיעות חוזרות,ZETA,Zeta Global Holdings Corp. Class A Common Stock,29.51,29.37,0.48,2,שלב 1 – תעלה עולה,https://finviz.com/quote.ashx?t=ZETA,https://www.tradingview.com/chart/?symbol=ZETA
+שלב 3 – נגיעות חוזרות,HPE,Hewlett Packard Enterprise Company Common Stock,40.91,40.72,0.48,2,,https://finviz.com/quote.ashx?t=HPE,https://www.tradingview.com/chart/?symbol=HPE
+שלב 3 – נגיעות חוזרות,MUFG,"Mitsubishi UFJ Financial Group, Inc. Common Stock",18.68,18.59,0.48,2,,https://finviz.com/quote.ashx?t=MUFG,https://www.tradingview.com/chart/?symbol=MUFG
+שלב 3 – נגיעות חוזרות,JXN,Jackson Financial Inc. Class A Common Stock ,127.12,126.51,0.48,3,שלב 1 – תעלה יורדת | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=JXN,https://www.tradingview.com/chart/?symbol=JXN
+שלב 3 – נגיעות חוזרות,GRMN,Garmin Ltd. Common Stock (Switzerland),268.04,266.74,0.49,3,שלב 1 – תעלה ישרה | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=GRMN,https://www.tradingview.com/chart/?symbol=GRMN
+שלב 3 – נגיעות חוזרות,REXR,"Rexford Industrial Realty, Inc. Common Stock",35.63,35.81,-0.49,4,שלב 1 – תעלה ישרה,https://finviz.com/quote.ashx?t=REXR,https://www.tradingview.com/chart/?symbol=REXR
+שלב 3 – נגיעות חוזרות,DXCM,"DexCom, Inc. - Common Stock",79.32,78.93,0.49,2,שלב 1 – תעלה עולה,https://finviz.com/quote.ashx?t=DXCM,https://www.tradingview.com/chart/?symbol=DXCM
+שלב 3 – נגיעות חוזרות,EWBC,"East West Bancorp, Inc. - Common Stock",121.54,120.94,0.5,2,שלב 1 – תעלה יורדת,https://finviz.com/quote.ashx?t=EWBC,https://www.tradingview.com/chart/?symbol=EWBC
+שלב 3 – נגיעות חוזרות,ZGN,Ermenegildo Zegna N.V. Ordinary Shares,13.48,13.41,0.52,2,שלב 1 – תעלה עולה,https://finviz.com/quote.ashx?t=ZGN,https://www.tradingview.com/chart/?symbol=ZGN
+שלב 3 – נגיעות חוזרות,F,Ford Motor Company Common Stock,11.17,11.11,0.54,2,שלב 1 – תעלה יורדת,https://finviz.com/quote.ashx?t=F,https://www.tradingview.com/chart/?symbol=F
+שלב 3 – נגיעות חוזרות,MDU,"MDU Resources Group, Inc. Common Stock (Holding Company)",18.51,18.41,0.54,3,שלב 1 – תעלה עולה | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=MDU,https://www.tradingview.com/chart/?symbol=MDU
+שלב 3 – נגיעות חוזרות,MNST,Monster Beverage Corporation - Common Stock,43.69,43.93,-0.55,2,,https://finviz.com/quote.ashx?t=MNST,https://www.tradingview.com/chart/?symbol=MNST
+שלב 3 – נגיעות חוזרות,BWA,BorgWarner Inc. Common Stock,46.95,47.21,-0.55,3,,https://finviz.com/quote.ashx?t=BWA,https://www.tradingview.com/chart/?symbol=BWA
+שלב 3 – נגיעות חוזרות,PCVX,"Vaxcyte, Inc. - Common Stock",55.39,55.08,0.55,2,,https://finviz.com/quote.ashx?t=PCVX,https://www.tradingview.com/chart/?symbol=PCVX
+שלב 3 – נגיעות חוזרות,MMSI,"Merit Medical Systems, Inc. - Common Stock",84.34,83.87,0.56,4,שלב 1 – תעלה ישרה | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=MMSI,https://www.tradingview.com/chart/?symbol=MMSI
+שלב 3 – נגיעות חוזרות,GL,Globe Life Inc. Common Stock,151.65,150.81,0.56,2,,https://finviz.com/quote.ashx?t=GL,https://www.tradingview.com/chart/?symbol=GL
+שלב 3 – נגיעות חוזרות,CARR,Carrier Global Corporation Common Stock ,49.96,50.24,-0.56,2,,https://finviz.com/quote.ashx?t=CARR,https://www.tradingview.com/chart/?symbol=CARR
+שלב 3 – נגיעות חוזרות,CNM,"Core & Main, Inc. Class A Common Stock",40.45,40.22,0.58,3,שלב 1 – תעלה עולה | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=CNM,https://www.tradingview.com/chart/?symbol=CNM
+שלב 3 – נגיעות חוזרות,NU,Nu Holdings Ltd. Class A Ordinary Shares,11.27,11.2,0.58,3,שלב 1 – תעלה יורדת | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=NU,https://www.tradingview.com/chart/?symbol=NU
+שלב 3 – נגיעות חוזרות,ROP,"Roper Technologies, Inc. - Common Stock",459.83,462.54,-0.59,2,,https://finviz.com/quote.ashx?t=ROP,https://www.tradingview.com/chart/?symbol=ROP
+שלב 3 – נגיעות חוזרות,SNOW,Snowflake Inc. Common Stock,254.82,253.29,0.6,3,שלב 1 – תעלה יורדת | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=SNOW,https://www.tradingview.com/chart/?symbol=SNOW
+שלב 3 – נגיעות חוזרות,ZTS,Zoetis Inc. Class A Common Stock,79.11,78.63,0.61,2,,https://finviz.com/quote.ashx?t=ZTS,https://www.tradingview.com/chart/?symbol=ZTS
+שלב 3 – נגיעות חוזרות,BANC,"Banc of California, Inc. Common Stock",16.25,16.35,-0.61,2,,https://finviz.com/quote.ashx?t=BANC,https://www.tradingview.com/chart/?symbol=BANC
+שלב 3 – נגיעות חוזרות,KLIC,"Kulicke and Soffa Industries, Inc. - Common Stock",54.71,54.37,0.63,2,,https://finviz.com/quote.ashx?t=KLIC,https://www.tradingview.com/chart/?symbol=KLIC
+שלב 3 – נגיעות חוזרות,ARE,"Alexandria Real Estate Equities, Inc. Common Stock",40.2,39.95,0.63,2,,https://finviz.com/quote.ashx?t=ARE,https://www.tradingview.com/chart/?symbol=ARE
+שלב 3 – נגיעות חוזרות,NNN,"NNN REIT, Inc. Common Stock",40.3,40.56,-0.64,3,,https://finviz.com/quote.ashx?t=NNN,https://www.tradingview.com/chart/?symbol=NNN
+שלב 3 – נגיעות חוזרות,ONB,Old National Bancorp - Common Stock,23.34,23.19,0.65,4,שלב 1 – תעלה יורדת | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=ONB,https://www.tradingview.com/chart/?symbol=ONB
+שלב 3 – נגיעות חוזרות,LAMR,Lamar Advertising Company - Class A Common Stock,152.17,151.19,0.65,2,,https://finviz.com/quote.ashx?t=LAMR,https://www.tradingview.com/chart/?symbol=LAMR
+שלב 3 – נגיעות חוזרות,LMT,Lockheed Martin Corporation Common Stock,565.5,561.85,0.65,2,,https://finviz.com/quote.ashx?t=LMT,https://www.tradingview.com/chart/?symbol=LMT
+שלב 3 – נגיעות חוזרות,BP,BP p.l.c. Common Stock,42.75,42.47,0.66,2,,https://finviz.com/quote.ashx?t=BP,https://www.tradingview.com/chart/?symbol=BP
+שלב 3 – נגיעות חוזרות,TRV,"The Travelers Companies, Inc. Common Stock",393.24,390.65,0.66,3,שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=TRV,https://www.tradingview.com/chart/?symbol=TRV
+שלב 3 – נגיעות חוזרות,RRC,Range Resources Corporation Common Stock,47.94,48.26,-0.66,2,,https://finviz.com/quote.ashx?t=RRC,https://www.tradingview.com/chart/?symbol=RRC
+שלב 3 – נגיעות חוזרות,BG,Bunge Limited Common Shares,90.9,91.51,-0.67,2,,https://finviz.com/quote.ashx?t=BG,https://www.tradingview.com/chart/?symbol=BG
+שלב 3 – נגיעות חוזרות,HONA,Honeywell Aerospace Inc. - Common Stock,150.71,149.7,0.67,4,שלב 1 – תעלה ישרה | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=HONA,https://www.tradingview.com/chart/?symbol=HONA
+שלב 3 – נגיעות חוזרות,TDW,Tidewater Inc. Common Stock,69.0,68.52,0.7,2,שלב 1 – תעלה עולה,https://finviz.com/quote.ashx?t=TDW,https://www.tradingview.com/chart/?symbol=TDW
+שלב 3 – נגיעות חוזרות,BNS,Bank Nova Scotia Halifax Pfd 3 Ordinary Shares,83.63,84.22,-0.7,2,,https://finviz.com/quote.ashx?t=BNS,https://www.tradingview.com/chart/?symbol=BNS
+שלב 3 – נגיעות חוזרות,MGA,"Magna International, Inc. Common Stock",58.53,58.12,0.71,2,שלב 1 – תעלה יורדת,https://finviz.com/quote.ashx?t=MGA,https://www.tradingview.com/chart/?symbol=MGA
+שלב 3 – נגיעות חוזרות,PSO,"Pearson, Plc Common Stock",16.86,16.98,-0.71,2,,https://finviz.com/quote.ashx?t=PSO,https://www.tradingview.com/chart/?symbol=PSO
+שלב 3 – נגיעות חוזרות,SCI,Service Corporation International Common Stock,69.14,68.65,0.71,3,שלב 1 – תעלה יורדת | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=SCI,https://www.tradingview.com/chart/?symbol=SCI
+שלב 3 – נגיעות חוזרות,DK,"Delek US Holdings, Inc. Common Stock",59.8,59.37,0.72,2,שלב 1 – תעלה יורדת,https://finviz.com/quote.ashx?t=DK,https://www.tradingview.com/chart/?symbol=DK
+שלב 3 – נגיעות חוזרות,UMBF,UMB Financial Corporation - Common Stock,126.5,125.58,0.73,4,שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=UMBF,https://www.tradingview.com/chart/?symbol=UMBF
+שלב 3 – נגיעות חוזרות,OMF,"OneMain Holdings, Inc. Common Stock",54.51,54.1,0.77,3,שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=OMF,https://www.tradingview.com/chart/?symbol=OMF
+שלב 3 – נגיעות חוזרות,WFC,Wells Fargo & Company Common Stock,78.62,78.02,0.77,3,שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=WFC,https://www.tradingview.com/chart/?symbol=WFC
+שלב 3 – נגיעות חוזרות,ALLY,Ally Financial Inc. Common Stock,36.32,36.04,0.77,3,שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=ALLY,https://www.tradingview.com/chart/?symbol=ALLY
+שלב 3 – נגיעות חוזרות,PFE,"Pfizer, Inc. Common Stock",27.4,27.19,0.79,3,שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=PFE,https://www.tradingview.com/chart/?symbol=PFE
+שלב 3 – נגיעות חוזרות,AROC,"Archrock, Inc. Common Stock",25.37,25.17,0.79,2,,https://finviz.com/quote.ashx?t=AROC,https://www.tradingview.com/chart/?symbol=AROC
+שלב 3 – נגיעות חוזרות,FRSH,Freshworks Inc. - Class A Common Stock,12.06,11.96,0.84,2,,https://finviz.com/quote.ashx?t=FRSH,https://www.tradingview.com/chart/?symbol=FRSH
+שלב 3 – נגיעות חוזרות,CLBT,Cellebrite DI Ltd. - Ordinary Shares,10.77,10.68,0.84,2,,https://finviz.com/quote.ashx?t=CLBT,https://www.tradingview.com/chart/?symbol=CLBT
+שלב 3 – נגיעות חוזרות,CVBF,CVB Financial Corporation - Common Stock,21.51,21.33,0.84,2,,https://finviz.com/quote.ashx?t=CVBF,https://www.tradingview.com/chart/?symbol=CVBF
+שלב 3 – נגיעות חוזרות,CRL,"Charles River Laboratories International, Inc. Common Stock",314.32,311.68,0.85,2,,https://finviz.com/quote.ashx?t=CRL,https://www.tradingview.com/chart/?symbol=CRL
+שלב 3 – נגיעות חוזרות,ZWS,Zurn Elkay Water Solutions Corporation Common Stock,43.95,43.58,0.85,2,,https://finviz.com/quote.ashx?t=ZWS,https://www.tradingview.com/chart/?symbol=ZWS
+שלב 3 – נגיעות חוזרות,SBCF,Seacoast Banking Corporation of Florida - Common Stock,31.41,31.14,0.87,3,שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=SBCF,https://www.tradingview.com/chart/?symbol=SBCF
+שלב 3 – נגיעות חוזרות,PFSI,"PennyMac Financial Services, Inc. Common Stock",58.02,57.52,0.87,2,,https://finviz.com/quote.ashx?t=PFSI,https://www.tradingview.com/chart/?symbol=PFSI
+שלב 3 – נגיעות חוזרות,WST,"West Pharmaceutical Services, Inc. Common Stock",390.3,386.88,0.88,2,,https://finviz.com/quote.ashx?t=WST,https://www.tradingview.com/chart/?symbol=WST
+שלב 3 – נגיעות חוזרות,NTAP,"NetApp, Inc. - Common Stock",157.65,156.26,0.89,2,,https://finviz.com/quote.ashx?t=NTAP,https://www.tradingview.com/chart/?symbol=NTAP
+שלב 3 – נגיעות חוזרות,FLEX,Flex Ltd. - Ordinary Shares,66.24,65.65,0.9,2,,https://finviz.com/quote.ashx?t=FLEX,https://www.tradingview.com/chart/?symbol=FLEX
+שלב 3 – נגיעות חוזרות,TAP,Molson Coors Beverage Company Class B Common Stock,39.23,38.87,0.93,2,שלב 1 – תעלה עולה,https://finviz.com/quote.ashx?t=TAP,https://www.tradingview.com/chart/?symbol=TAP
+שלב 3 – נגיעות חוזרות,CRBG,Corebridge Financial Inc. Common Stock,32.57,32.27,0.93,3,שלב 1 – תעלה עולה | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=CRBG,https://www.tradingview.com/chart/?symbol=CRBG
+שלב 3 – נגיעות חוזרות,EQH,"Equitable Holdings, Inc. Common Stock",50.32,49.86,0.93,3,שלב 1 – תעלה ישרה | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=EQH,https://www.tradingview.com/chart/?symbol=EQH
+שלב 3 – נגיעות חוזרות,FFBC,First Financial Bancorp. - Common Stock,30.79,30.51,0.93,3,שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=FFBC,https://www.tradingview.com/chart/?symbol=FFBC
+שלב 3 – נגיעות חוזרות,HPQ,HP Inc. Common Stock,27.96,27.7,0.94,2,שלב 1 – תעלה עולה,https://finviz.com/quote.ashx?t=HPQ,https://www.tradingview.com/chart/?symbol=HPQ
+שלב 3 – נגיעות חוזרות,PBR,Petroleo Brasileiro S.A. Petrobras ADS,16.01,15.86,0.95,2,,https://finviz.com/quote.ashx?t=PBR,https://www.tradingview.com/chart/?symbol=PBR
+שלב 3 – נגיעות חוזרות,ALGM,"Allegro MicroSystems, Inc. - Common Stock",25.56,25.32,0.95,2,שלב 1 – תעלה יורדת,https://finviz.com/quote.ashx?t=ALGM,https://www.tradingview.com/chart/?symbol=ALGM
+שלב 3 – נגיעות חוזרות,WDC,Western Digital Corporation - Common Stock,261.11,258.61,0.97,2,,https://finviz.com/quote.ashx?t=WDC,https://www.tradingview.com/chart/?symbol=WDC
+שלב 3 – נגיעות חוזרות,SNX,TD SYNNEX Corporation Common Stock,216.76,214.66,0.98,2,,https://finviz.com/quote.ashx?t=SNX,https://www.tradingview.com/chart/?symbol=SNX
+שלב 3 – נגיעות חוזרות,WMB,"Williams Companies, Inc. (The) Common Stock",64.31,63.68,0.99,2,,https://finviz.com/quote.ashx?t=WMB,https://www.tradingview.com/chart/?symbol=WMB
+שלב 3 – נגיעות חוזרות,MT,Arcelor Mittal NY Registry Shares NEW,55.52,54.96,1.02,2,,https://finviz.com/quote.ashx?t=MT,https://www.tradingview.com/chart/?symbol=MT
+שלב 3 – נגיעות חוזרות,BPOP,"Popular, Inc. - Common Stock",143.93,142.47,1.02,3,שלב 1 – תעלה יורדת | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=BPOP,https://www.tradingview.com/chart/?symbol=BPOP
+שלב 3 – נגיעות חוזרות,STAG,"Stag Industrial, Inc. Common Stock",35.98,35.61,1.04,2,,https://finviz.com/quote.ashx?t=STAG,https://www.tradingview.com/chart/?symbol=STAG
+שלב 3 – נגיעות חוזרות,LLY,Eli Lilly and Company Common Stock,1347.11,1333.22,1.04,2,,https://finviz.com/quote.ashx?t=LLY,https://www.tradingview.com/chart/?symbol=LLY
+שלב 3 – נגיעות חוזרות,FBP,First BanCorp. New Common Stock,23.81,23.56,1.06,2,,https://finviz.com/quote.ashx?t=FBP,https://www.tradingview.com/chart/?symbol=FBP
+שלב 3 – נגיעות חוזרות,BFH,"Bread Financial Holdings, Inc. Common Stock",92.12,91.13,1.09,2,שלב 1 – תעלה יורדת,https://finviz.com/quote.ashx?t=BFH,https://www.tradingview.com/chart/?symbol=BFH
+שלב 3 – נגיעות חוזרות,W,Wayfair Inc. Class A Common Stock,95.29,94.25,1.1,2,,https://finviz.com/quote.ashx?t=W,https://www.tradingview.com/chart/?symbol=W
+שלב 3 – נגיעות חוזרות,COF,Capital One Financial Corporation Common Stock,178.66,176.71,1.11,3,שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=COF,https://www.tradingview.com/chart/?symbol=COF
+שלב 3 – נגיעות חוזרות,MCHP,Microchip Technology Incorporated - Common Stock,55.44,54.83,1.11,2,,https://finviz.com/quote.ashx?t=MCHP,https://www.tradingview.com/chart/?symbol=MCHP
+שלב 3 – נגיעות חוזרות,APO,"Apollo Global Management, Inc. (New) Common Stock",111.16,109.91,1.14,2,,https://finviz.com/quote.ashx?t=APO,https://www.tradingview.com/chart/?symbol=APO
+שלב 3 – נגיעות חוזרות,QCOM,QUALCOMM Incorporated - Common Stock,149.94,148.25,1.14,2,שלב 1 – תעלה עולה,https://finviz.com/quote.ashx?t=QCOM,https://www.tradingview.com/chart/?symbol=QCOM
+שלב 3 – נגיעות חוזרות,CRC,California Resources Corporation Common Stock,43.74,43.24,1.14,2,שלב 1 – תעלה יורדת,https://finviz.com/quote.ashx?t=CRC,https://www.tradingview.com/chart/?symbol=CRC
+שלב 3 – נגיעות חוזרות,CVX,Chevron Corporation Common Stock,208.37,206.01,1.15,2,שלב 1 – תעלה עולה,https://finviz.com/quote.ashx?t=CVX,https://www.tradingview.com/chart/?symbol=CVX
+שלב 3 – נגיעות חוזרות,ZG,"Zillow Group, Inc. - Class A Common Stock",27.57,27.25,1.17,2,,https://finviz.com/quote.ashx?t=ZG,https://www.tradingview.com/chart/?symbol=ZG
+שלב 3 – נגיעות חוזרות,TMO,Thermo Fisher Scientific Inc Common Stock,669.54,661.6,1.2,2,שלב 1 – תעלה עולה,https://finviz.com/quote.ashx?t=TMO,https://www.tradingview.com/chart/?symbol=TMO
+שלב 3 – נגיעות חוזרות,MPWR,"Monolithic Power Systems, Inc. - Common Stock",1142.05,1128.47,1.2,4,שלב 1 – תעלה ישרה | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=MPWR,https://www.tradingview.com/chart/?symbol=MPWR
+שלב 3 – נגיעות חוזרות,SSB,SouthState Bank Corporation Common Stock,99.18,98.0,1.2,2,,https://finviz.com/quote.ashx?t=SSB,https://www.tradingview.com/chart/?symbol=SSB
+שלב 3 – נגיעות חוזרות,ULS,UL Solutions Inc. Class A Common Stock,72.64,71.76,1.23,2,,https://finviz.com/quote.ashx?t=ULS,https://www.tradingview.com/chart/?symbol=ULS
+שלב 3 – נגיעות חוזרות,DNOW,DNOW Inc. Common Stock,12.84,12.68,1.24,3,שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=DNOW,https://www.tradingview.com/chart/?symbol=DNOW
+שלב 3 – נגיעות חוזרות,BKR,Baker Hughes Company - Common Stock,44.81,44.26,1.24,2,שלב 1 – תעלה יורדת,https://finviz.com/quote.ashx?t=BKR,https://www.tradingview.com/chart/?symbol=BKR
+שלב 3 – נגיעות חוזרות,STNG,Scorpio Tankers Inc. Common Shares,78.06,77.07,1.28,2,שלב 1 – תעלה עולה,https://finviz.com/quote.ashx?t=STNG,https://www.tradingview.com/chart/?symbol=STNG
+שלב 3 – נגיעות חוזרות,FOXA,Fox Corporation - Class A Common Stock,62.91,62.1,1.3,2,שלב 1 – תעלה עולה,https://finviz.com/quote.ashx?t=FOXA,https://www.tradingview.com/chart/?symbol=FOXA
+שלב 3 – נגיעות חוזרות,GS,"Goldman Sachs Group, Inc. (The) Common Stock",790.69,780.5,1.31,2,,https://finviz.com/quote.ashx?t=GS,https://www.tradingview.com/chart/?symbol=GS
+שלב 3 – נגיעות חוזרות,HXL,Hexcel Corporation Common Stock,72.92,71.98,1.31,2,שלב 1 – תעלה יורדת,https://finviz.com/quote.ashx?t=HXL,https://www.tradingview.com/chart/?symbol=HXL
+שלב 3 – נגיעות חוזרות,RTX,RTX Corporation Common Stock,190.17,187.71,1.31,2,,https://finviz.com/quote.ashx?t=RTX,https://www.tradingview.com/chart/?symbol=RTX
+שלב 3 – נגיעות חוזרות,NWBI,"Northwest Bancshares, Inc. - Common Stock",14.41,14.22,1.34,2,שלב 1 – תעלה ישרה,https://finviz.com/quote.ashx?t=NWBI,https://www.tradingview.com/chart/?symbol=NWBI
+שלב 3 – נגיעות חוזרות,ADI,"Analog Devices, Inc. - Common Stock",345.92,341.32,1.35,2,,https://finviz.com/quote.ashx?t=ADI,https://www.tradingview.com/chart/?symbol=ADI
+שלב 3 – נגיעות חוזרות,KEYS,Keysight Technologies Inc. Common Stock,261.51,257.93,1.39,2,,https://finviz.com/quote.ashx?t=KEYS,https://www.tradingview.com/chart/?symbol=KEYS
+שלב 3 – נגיעות חוזרות,BMNR,"BitMine Immersion Technologies, Inc. Common Stock",12.98,12.8,1.41,2,,https://finviz.com/quote.ashx?t=BMNR,https://www.tradingview.com/chart/?symbol=BMNR
+שלב 3 – נגיעות חוזרות,CVE,Cenovus Energy Inc Common Stock,27.07,26.69,1.42,2,שלב 1 – תעלה יורדת,https://finviz.com/quote.ashx?t=CVE,https://www.tradingview.com/chart/?symbol=CVE
+שלב 3 – נגיעות חוזרות,DOV,Dover Corporation Common Stock,194.29,191.56,1.43,2,,https://finviz.com/quote.ashx?t=DOV,https://www.tradingview.com/chart/?symbol=DOV
+שלב 3 – נגיעות חוזרות,ASML,ASML Holding N.V. - New York Registry Shares,1266.22,1248.11,1.45,2,,https://finviz.com/quote.ashx?t=ASML,https://www.tradingview.com/chart/?symbol=ASML
+שלב 3 – נגיעות חוזרות,PR,Permian Resources Corporation Class A Common Stock,21.15,20.85,1.46,3,שלב 1 – תעלה עולה | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=PR,https://www.tradingview.com/chart/?symbol=PR
+שלב 3 – נגיעות חוזרות,PODD,Insulet Corporation - Common Stock,133.17,131.24,1.47,2,,https://finviz.com/quote.ashx?t=PODD,https://www.tradingview.com/chart/?symbol=PODD
+שלב 3 – נגיעות חוזרות,TEL,TE Connectivity plc Ordinary Shares,199.97,197.07,1.47,2,שלב 1 – תעלה יורדת,https://finviz.com/quote.ashx?t=TEL,https://www.tradingview.com/chart/?symbol=TEL
+שלב 3 – נגיעות חוזרות,ALAB,"Astera Labs, Inc. - Common Stock",180.35,177.61,1.54,2,,https://finviz.com/quote.ashx?t=ALAB,https://www.tradingview.com/chart/?symbol=ALAB
+שלב 3 – נגיעות חוזרות,MSFT,Microsoft Corporation - Common Stock,484.52,477.15,1.54,2,,https://finviz.com/quote.ashx?t=MSFT,https://www.tradingview.com/chart/?symbol=MSFT
+שלב 3 – נגיעות חוזרות,VCTR,"Victory Capital Holdings, Inc. - Common Stock",110.36,108.66,1.56,2,שלב 1 – תעלה עולה,https://finviz.com/quote.ashx?t=VCTR,https://www.tradingview.com/chart/?symbol=VCTR
+שלב 3 – נגיעות חוזרות,SLB,SLB Limited Common Shares,45.89,45.18,1.57,2,,https://finviz.com/quote.ashx?t=SLB,https://www.tradingview.com/chart/?symbol=SLB
+שלב 3 – נגיעות חוזרות,RGEN,Repligen Corporation - Common Stock,163.81,161.14,1.66,2,,https://finviz.com/quote.ashx?t=RGEN,https://www.tradingview.com/chart/?symbol=RGEN
+שלב 3 – נגיעות חוזרות,STX,Seagate Technology Holdings PLC - Ordinary Shares (Ireland),457.01,449.28,1.72,2,,https://finviz.com/quote.ashx?t=STX,https://www.tradingview.com/chart/?symbol=STX
+שלב 3 – נגיעות חוזרות,BLLN,"BillionToOne, Inc. - Class A common stock",89.92,88.38,1.74,3,שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=BLLN,https://www.tradingview.com/chart/?symbol=BLLN
+שלב 3 – נגיעות חוזרות,FPS,"Forgent Power Solutions, Inc. Class A Common Stock",18.0,17.67,1.87,2,,https://finviz.com/quote.ashx?t=FPS,https://www.tradingview.com/chart/?symbol=FPS
+שלב 3 – נגיעות חוזרות,ORKA,"Oruka Therapeutics, Inc. - Common Stock",95.81,94.05,1.87,2,,https://finviz.com/quote.ashx?t=ORKA,https://www.tradingview.com/chart/?symbol=ORKA
+שלב 3 – נגיעות חוזרות,TFPM,Triple Flag Precious Metals Corp. Common Shares,27.15,26.64,1.91,3,שלב 1 – תעלה יורדת | שלב 4 – תמיכה כפולה/משולשת,https://finviz.com/quote.ashx?t=TFPM,https://www.tradingview.com/chart/?symbol=TFPM
+שלב 3 – נגיעות חוזרות,GFS,GlobalFoundries Inc. - Ordinary Share,35.56,34.88,1.95,2,שלב 1 – תעלה יורדת,https://finviz.com/quote.ashx?t=GFS,https://www.tradingview.com/chart/?symbol=GFS
+שלב 3 – נגיעות חוזרות,HUBS,"HubSpot, Inc. Common Stock",193.88,189.87,2.11,3,שלב 1 – תעלה עולה,https://finviz.com/quote.ashx?t=HUBS,https://www.tradingview.com/chart/?symbol=HUBS
+שלב 3 – נגיעות חוזרות,OPLN,"OPENLANE, Inc. Common Stock",33.81,33.11,2.11,2,,https://finviz.com/quote.ashx?t=OPLN,https://www.tradingview.com/chart/?symbol=OPLN
+שלב 3 – נגיעות חוזרות,IOND,Ionic Digital Inc. - Class A Common Stock,54.24,53.11,2.13,2,,https://finviz.com/quote.ashx?t=IOND,https://www.tradingview.com/chart/?symbol=IOND
+שלב 3 – נגיעות חוזרות,MUR,Murphy Oil Corporation Common Stock,32.15,31.47,2.16,2,,https://finviz.com/quote.ashx?t=MUR,https://www.tradingview.com/chart/?symbol=MUR
+שלב 3 – נגיעות חוזרות,CLS,"Celestica, Inc. Common Stock",201.8,197.5,2.18,2,,https://finviz.com/quote.ashx?t=CLS,https://www.tradingview.com/chart/?symbol=CLS
+שלב 3 – נגיעות חוזרות,DXC,DXC Technology Company Common Stock ,13.67,13.35,2.4,2,,https://finviz.com/quote.ashx?t=DXC,https://www.tradingview.com/chart/?symbol=DXC
+שלב 3 – נגיעות חוזרות,CLF,Cleveland-Cliffs Inc. Common Stock,10.67,10.42,2.4,2,,https://finviz.com/quote.ashx?t=CLF,https://www.tradingview.com/chart/?symbol=CLF
+שלב 3 – נגיעות חוזרות,TEVA,Teva Pharmaceutical Industries Limited Ordinary Shares,39.23,38.27,2.5,3,,https://finviz.com/quote.ashx?t=TEVA,https://www.tradingview.com/chart/?symbol=TEVA
+שלב 3 – נגיעות חוזרות,ROST,"Ross Stores, Inc. - Common Stock",213.46,208.2,2.53,2,שלב 1 – תעלה יורדת,https://finviz.com/quote.ashx?t=ROST,https://www.tradingview.com/chart/?symbol=ROST
+שלב 3 – נגיעות חוזרות,CHEF,"The Chefs' Warehouse, Inc. - Common Stock",102.67,100.05,2.62,2,,https://finviz.com/quote.ashx?t=CHEF,https://www.tradingview.com/chart/?symbol=CHEF
+שלב 3 – נגיעות חוזרות,WSE,Wise Group plc - Class A Ordinary Shares,10.85,10.56,2.75,2,שלב 1 – תעלה יורדת,https://finviz.com/quote.ashx?t=WSE,https://www.tradingview.com/chart/?symbol=WSE
+שלב 3 – נגיעות חוזרות,PS,Pershing Square Inc. Common Stock,33.61,32.62,3.03,2,,https://finviz.com/quote.ashx?t=PS,https://www.tradingview.com/chart/?symbol=PS
+שלב 3 – נגיעות חוזרות,RDNT,"RadNet, Inc. - Common Stock",69.71,67.6,3.12,2,,https://finviz.com/quote.ashx?t=RDNT,https://www.tradingview.com/chart/?symbol=RDNT
+שלב 3 – נגיעות חוזרות,VEEV,Veeva Systems Inc. Class A Common Stock,266.22,257.87,3.24,2,,https://finviz.com/quote.ashx?t=VEEV,https://www.tradingview.com/chart/?symbol=VEEV
+שלב 3 – נגיעות חוזרות,FIGS,"FIGS, Inc. Class A Common Stock",20.07,19.41,3.4,2,,https://finviz.com/quote.ashx?t=FIGS,https://www.tradingview.com/chart/?symbol=FIGS
+שלב 3 – נגיעות חוזרות,GH,"Guardant Health, Inc. - Common Stock",145.83,140.86,3.53,2,,https://finviz.com/quote.ashx?t=GH,https://www.tradingview.com/chart/?symbol=GH
+שלב 3 – נגיעות חוזרות,AYA,Aya Gold & Silver Inc. - Common Shares,17.38,16.76,3.7,2,,https://finviz.com/quote.ashx?t=AYA,https://www.tradingview.com/chart/?symbol=AYA
+שלב 3 – נגיעות חוזרות,EQPT,EquipmentShare.com Inc - Class A Common Stock,13.5,13.0,3.85,2,,https://finviz.com/quote.ashx?t=EQPT,https://www.tradingview.com/chart/?symbol=EQPT
+שלב 3 – נגיעות חוזרות,ERAS,"Erasca, Inc. - Common Stock",13.61,13.11,3.85,3,שלב 1 – תעלה ישרה,https://finviz.com/quote.ashx?t=ERAS,https://www.tradingview.com/chart/?symbol=ERAS
+שלב 3 – נגיעות חוזרות,SIGI,"Selective Insurance Group, Inc. - Common Stock",103.25,98.38,4.95,2,,https://finviz.com/quote.ashx?t=SIGI,https://www.tradingview.com/chart/?symbol=SIGI
+שלב 3 – נגיעות חוזרות,GVA,Granite Construction Incorporated Common Stock,113.47,104.44,8.64,3,,https://finviz.com/quote.ashx?t=GVA,https://www.tradingview.com/chart/?symbol=GVA
+שלב 4 – תמיכה כפולה/משולשת,A,"Agilent Technologies, Inc. Common Stock",170.38,170.33,0.03,2,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=A,https://www.tradingview.com/chart/?symbol=A
+שלב 4 – תמיכה כפולה/משולשת,EQT,EQT Corporation Common Stock,48.89,48.83,0.12,3,שלב 1 – תעלה ישרה | שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=EQT,https://www.tradingview.com/chart/?symbol=EQT
+שלב 4 – תמיכה כפולה/משולשת,P,"Everpure, Inc. Class A common stock",92.05,91.9,0.16,2,שלב 1 – תעלה עולה | שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=P,https://www.tradingview.com/chart/?symbol=P
+שלב 4 – תמיכה כפולה/משולשת,VNOM,"Viper Energy, Inc.  - Class A Common Stock",39.69,39.61,0.19,2,שלב 1 – תעלה ישרה | שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=VNOM,https://www.tradingview.com/chart/?symbol=VNOM
+שלב 4 – תמיכה כפולה/משולשת,SGHC,Super Group (SGHC) Limited Ordinary Shares,10.25,10.23,0.2,2,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=SGHC,https://www.tradingview.com/chart/?symbol=SGHC
+שלב 4 – תמיכה כפולה/משולשת,NWS,News Corporation - Class B Common Stock,27.87,27.82,0.2,2,שלב 1 – תעלה יורדת | שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=NWS,https://www.tradingview.com/chart/?symbol=NWS
+שלב 4 – תמיכה כפולה/משולשת,OKE,"ONEOK, Inc. Common Stock",84.37,84.2,0.2,2,שלב 1 – תעלה ישרה | שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=OKE,https://www.tradingview.com/chart/?symbol=OKE
+שלב 4 – תמיכה כפולה/משולשת,MC,Moelis & Company Class A Common Stock,51.35,51.22,0.25,2,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=MC,https://www.tradingview.com/chart/?symbol=MC
+שלב 4 – תמיכה כפולה/משולשת,OXY,Occidental Petroleum Corporation Common Stock,53.9,53.76,0.27,3,שלב 1 – תעלה ישרה | שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=OXY,https://www.tradingview.com/chart/?symbol=OXY
+שלב 4 – תמיכה כפולה/משולשת,AMP,"Ameriprise Financial, Inc. Common Stock",480.29,478.95,0.28,3,שלב 1 – תעלה ישרה | שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=AMP,https://www.tradingview.com/chart/?symbol=AMP
+שלב 4 – תמיכה כפולה/משולשת,OPCH,"Option Care Health, Inc. - Common Stock",31.59,31.5,0.29,2,,https://finviz.com/quote.ashx?t=OPCH,https://www.tradingview.com/chart/?symbol=OPCH
+שלב 4 – תמיכה כפולה/משולשת,IEX,IDEX Corporation Common Stock,219.64,218.95,0.32,2,שלב 1 – תעלה יורדת | שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=IEX,https://www.tradingview.com/chart/?symbol=IEX
+שלב 4 – תמיכה כפולה/משולשת,LIF,"Life360, Inc. - Common Stock",39.51,39.39,0.32,2,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=LIF,https://www.tradingview.com/chart/?symbol=LIF
+שלב 4 – תמיכה כפולה/משולשת,LRN,"Stride, Inc. Common Stock",74.58,74.29,0.38,2,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=LRN,https://www.tradingview.com/chart/?symbol=LRN
+שלב 4 – תמיכה כפולה/משולשת,KEY,KeyCorp Common Stock,19.45,19.38,0.39,2,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=KEY,https://www.tradingview.com/chart/?symbol=KEY
+שלב 4 – תמיכה כפולה/משולשת,RNST,Renasant Corporation Common Stock,38.79,38.64,0.39,2,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=RNST,https://www.tradingview.com/chart/?symbol=RNST
+שלב 4 – תמיכה כפולה/משולשת,LTC,"LTC Properties, Inc. Common Stock",42.24,42.06,0.43,2,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=LTC,https://www.tradingview.com/chart/?symbol=LTC
+שלב 4 – תמיכה כפולה/משולשת,FBK,FB Financial Corporation Common Stock,51.07,50.84,0.45,2,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=FBK,https://www.tradingview.com/chart/?symbol=FBK
+שלב 4 – תמיכה כפולה/משולשת,JXN,Jackson Financial Inc. Class A Common Stock ,127.12,126.51,0.48,2,שלב 1 – תעלה יורדת | שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=JXN,https://www.tradingview.com/chart/?symbol=JXN
+שלב 4 – תמיכה כפולה/משולשת,GRMN,Garmin Ltd. Common Stock (Switzerland),268.04,266.74,0.49,2,שלב 1 – תעלה ישרה | שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=GRMN,https://www.tradingview.com/chart/?symbol=GRMN
+שלב 4 – תמיכה כפולה/משולשת,MDU,"MDU Resources Group, Inc. Common Stock (Holding Company)",18.51,18.41,0.54,2,שלב 1 – תעלה עולה | שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=MDU,https://www.tradingview.com/chart/?symbol=MDU
+שלב 4 – תמיכה כפולה/משולשת,MMSI,"Merit Medical Systems, Inc. - Common Stock",84.34,83.87,0.56,3,שלב 1 – תעלה ישרה | שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=MMSI,https://www.tradingview.com/chart/?symbol=MMSI
+שלב 4 – תמיכה כפולה/משולשת,CNM,"Core & Main, Inc. Class A Common Stock",40.45,40.22,0.58,2,שלב 1 – תעלה עולה | שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=CNM,https://www.tradingview.com/chart/?symbol=CNM
+שלב 4 – תמיכה כפולה/משולשת,NU,Nu Holdings Ltd. Class A Ordinary Shares,11.27,11.2,0.58,2,שלב 1 – תעלה יורדת | שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=NU,https://www.tradingview.com/chart/?symbol=NU
+שלב 4 – תמיכה כפולה/משולשת,SNOW,Snowflake Inc. Common Stock,254.82,253.29,0.6,2,שלב 1 – תעלה יורדת | שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=SNOW,https://www.tradingview.com/chart/?symbol=SNOW
+שלב 4 – תמיכה כפולה/משולשת,AES,The AES Corporation Common Stock,15.02,14.93,0.6,2,שלב 1 – תעלה ישרה,https://finviz.com/quote.ashx?t=AES,https://www.tradingview.com/chart/?symbol=AES
+שלב 4 – תמיכה כפולה/משולשת,ONB,Old National Bancorp - Common Stock,23.34,23.19,0.65,3,שלב 1 – תעלה יורדת | שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=ONB,https://www.tradingview.com/chart/?symbol=ONB
+שלב 4 – תמיכה כפולה/משולשת,TRV,"The Travelers Companies, Inc. Common Stock",393.24,390.65,0.66,2,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=TRV,https://www.tradingview.com/chart/?symbol=TRV
+שלב 4 – תמיכה כפולה/משולשת,HONA,Honeywell Aerospace Inc. - Common Stock,150.71,149.7,0.67,3,שלב 1 – תעלה ישרה | שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=HONA,https://www.tradingview.com/chart/?symbol=HONA
+שלב 4 – תמיכה כפולה/משולשת,SCI,Service Corporation International Common Stock,69.14,68.65,0.71,2,שלב 1 – תעלה יורדת | שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=SCI,https://www.tradingview.com/chart/?symbol=SCI
+שלב 4 – תמיכה כפולה/משולשת,UMBF,UMB Financial Corporation - Common Stock,126.5,125.58,0.73,3,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=UMBF,https://www.tradingview.com/chart/?symbol=UMBF
+שלב 4 – תמיכה כפולה/משולשת,OMF,"OneMain Holdings, Inc. Common Stock",54.51,54.1,0.77,2,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=OMF,https://www.tradingview.com/chart/?symbol=OMF
+שלב 4 – תמיכה כפולה/משולשת,WFC,Wells Fargo & Company Common Stock,78.62,78.02,0.77,2,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=WFC,https://www.tradingview.com/chart/?symbol=WFC
+שלב 4 – תמיכה כפולה/משולשת,ALLY,Ally Financial Inc. Common Stock,36.32,36.04,0.77,2,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=ALLY,https://www.tradingview.com/chart/?symbol=ALLY
+שלב 4 – תמיכה כפולה/משולשת,HCC,"Warrior Met Coal, Inc. Common Stock",76.56,75.97,0.77,3,שלב 1 – תעלה ישרה | שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=HCC,https://www.tradingview.com/chart/?symbol=HCC
+שלב 4 – תמיכה כפולה/משולשת,PFE,"Pfizer, Inc. Common Stock",27.4,27.19,0.79,2,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=PFE,https://www.tradingview.com/chart/?symbol=PFE
+שלב 4 – תמיכה כפולה/משולשת,ARX,Accelerant Holdings Class A Common Shares,19.88,19.71,0.84,2,שלב 1 – תעלה עולה,https://finviz.com/quote.ashx?t=ARX,https://www.tradingview.com/chart/?symbol=ARX
+שלב 4 – תמיכה כפולה/משולשת,DECK,Deckers Outdoor Corporation Common Stock,77.94,77.28,0.85,2,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=DECK,https://www.tradingview.com/chart/?symbol=DECK
+שלב 4 – תמיכה כפולה/משולשת,SBCF,Seacoast Banking Corporation of Florida - Common Stock,31.41,31.14,0.87,2,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=SBCF,https://www.tradingview.com/chart/?symbol=SBCF
+שלב 4 – תמיכה כפולה/משולשת,CRBG,Corebridge Financial Inc. Common Stock,32.57,32.27,0.93,2,שלב 1 – תעלה עולה | שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=CRBG,https://www.tradingview.com/chart/?symbol=CRBG
+שלב 4 – תמיכה כפולה/משולשת,EQH,"Equitable Holdings, Inc. Common Stock",50.32,49.86,0.93,2,שלב 1 – תעלה ישרה | שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=EQH,https://www.tradingview.com/chart/?symbol=EQH
+שלב 4 – תמיכה כפולה/משולשת,FFBC,First Financial Bancorp. - Common Stock,30.79,30.51,0.93,2,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=FFBC,https://www.tradingview.com/chart/?symbol=FFBC
+שלב 4 – תמיכה כפולה/משולשת,BPOP,"Popular, Inc. - Common Stock",143.93,142.47,1.02,2,שלב 1 – תעלה יורדת | שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=BPOP,https://www.tradingview.com/chart/?symbol=BPOP
+שלב 4 – תמיכה כפולה/משולשת,AXP,American Express Company Common Stock,301.7,298.62,1.03,2,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=AXP,https://www.tradingview.com/chart/?symbol=AXP
+שלב 4 – תמיכה כפולה/משולשת,COF,Capital One Financial Corporation Common Stock,178.66,176.71,1.11,2,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=COF,https://www.tradingview.com/chart/?symbol=COF
+שלב 4 – תמיכה כפולה/משולשת,AME,"AMETEK, Inc.",222.9,220.37,1.15,3,שלב 1 – תעלה יורדת | שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=AME,https://www.tradingview.com/chart/?symbol=AME
+שלב 4 – תמיכה כפולה/משולשת,MPWR,"Monolithic Power Systems, Inc. - Common Stock",1142.05,1128.47,1.2,3,שלב 1 – תעלה ישרה | שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=MPWR,https://www.tradingview.com/chart/?symbol=MPWR
+שלב 4 – תמיכה כפולה/משולשת,DNOW,DNOW Inc. Common Stock,12.84,12.68,1.24,2,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=DNOW,https://www.tradingview.com/chart/?symbol=DNOW
+שלב 4 – תמיכה כפולה/משולשת,EPD,Enterprise Products Partners L.P. Common Stock,35.83,35.38,1.26,3,שלב 1 – תעלה ישרה,https://finviz.com/quote.ashx?t=EPD,https://www.tradingview.com/chart/?symbol=EPD
+שלב 4 – תמיכה כפולה/משולשת,NSC,Norfolk Southern Corporation Common Stock,311.01,306.93,1.33,2,שלב 1 – תעלה עולה,https://finviz.com/quote.ashx?t=NSC,https://www.tradingview.com/chart/?symbol=NSC
+שלב 4 – תמיכה כפולה/משולשת,AUB,Atlantic Union Bankshares Corporation Common Stock,36.6,36.1,1.39,2,שלב 1 – תעלה יורדת,https://finviz.com/quote.ashx?t=AUB,https://www.tradingview.com/chart/?symbol=AUB
+שלב 4 – תמיכה כפולה/משולשת,CZR,"Caesars Entertainment, Inc. - Common Stock",29.06,28.66,1.4,2,,https://finviz.com/quote.ashx?t=CZR,https://www.tradingview.com/chart/?symbol=CZR
+שלב 4 – תמיכה כפולה/משולשת,PR,Permian Resources Corporation Class A Common Stock,21.15,20.85,1.46,2,שלב 1 – תעלה עולה | שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=PR,https://www.tradingview.com/chart/?symbol=PR
+שלב 4 – תמיכה כפולה/משולשת,ADM,Archer-Daniels-Midland Company Common Stock,66.95,65.97,1.49,2,,https://finviz.com/quote.ashx?t=ADM,https://www.tradingview.com/chart/?symbol=ADM
+שלב 4 – תמיכה כפולה/משולשת,SFBS,"ServisFirst Bancshares, Inc. Common Stock",38.32,37.73,1.55,2,,https://finviz.com/quote.ashx?t=SFBS,https://www.tradingview.com/chart/?symbol=SFBS
+שלב 4 – תמיכה כפולה/משולשת,LPLA,LPL Financial Holdings Inc. - Common Stock,264.56,260.46,1.57,2,שלב 1 – תעלה ישרה,https://finviz.com/quote.ashx?t=LPLA,https://www.tradingview.com/chart/?symbol=LPLA
+שלב 4 – תמיכה כפולה/משולשת,DV,"DoubleVerify Holdings, Inc. Common Stock",13.56,13.35,1.6,3,שלב 1 – תעלה ישרה,https://finviz.com/quote.ashx?t=DV,https://www.tradingview.com/chart/?symbol=DV
+שלב 4 – תמיכה כפולה/משולשת,TFC,Truist Financial Corporation Common Stock,45.81,45.06,1.66,2,,https://finviz.com/quote.ashx?t=TFC,https://www.tradingview.com/chart/?symbol=TFC
+שלב 4 – תמיכה כפולה/משולשת,HLNE,Hamilton Lane Incorporated - Class A Common Stock,81.07,79.71,1.71,3,שלב 1 – תעלה ישרה,https://finviz.com/quote.ashx?t=HLNE,https://www.tradingview.com/chart/?symbol=HLNE
+שלב 4 – תמיכה כפולה/משולשת,RF,Regions Financial Corporation Common Stock,26.6,26.15,1.72,2,,https://finviz.com/quote.ashx?t=RF,https://www.tradingview.com/chart/?symbol=RF
+שלב 4 – תמיכה כפולה/משולשת,BLLN,"BillionToOne, Inc. - Class A common stock",89.92,88.38,1.74,2,שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=BLLN,https://www.tradingview.com/chart/?symbol=BLLN
+שלב 4 – תמיכה כפולה/משולשת,DB,Deutsche Bank AG Common Stock,31.4,30.86,1.75,3,שלב 1 – תעלה ישרה,https://finviz.com/quote.ashx?t=DB,https://www.tradingview.com/chart/?symbol=DB
+שלב 4 – תמיכה כפולה/משולשת,ODFL,"Old Dominion Freight Line, Inc. - Common Stock",168.09,165.04,1.85,2,,https://finviz.com/quote.ashx?t=ODFL,https://www.tradingview.com/chart/?symbol=ODFL
+שלב 4 – תמיכה כפולה/משולשת,Z,"Zillow Group, Inc. - Class C Capital Stock",27.29,26.79,1.88,2,,https://finviz.com/quote.ashx?t=Z,https://www.tradingview.com/chart/?symbol=Z
+שלב 4 – תמיכה כפולה/משולשת,CLBK,"Columbia Financial, Inc. - Common Stock",10.73,10.53,1.9,3,שלב 1 – תעלה ישרה,https://finviz.com/quote.ashx?t=CLBK,https://www.tradingview.com/chart/?symbol=CLBK
+שלב 4 – תמיכה כפולה/משולשת,TFPM,Triple Flag Precious Metals Corp. Common Shares,27.15,26.64,1.91,2,שלב 1 – תעלה יורדת | שלב 3 – נגיעות חוזרות,https://finviz.com/quote.ashx?t=TFPM,https://www.tradingview.com/chart/?symbol=TFPM

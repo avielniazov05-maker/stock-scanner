@@ -84,7 +84,7 @@ def analyze(bars, p, t=None):
         L, idx = lv["level"], lv["idx"]
         now = abs(bars.l[t] - L) <= tol * L and bars.c[t] >= L * (1 - tol)
         seg = [[(idx[0], L), (t, L)]]
-        if now and hammer and len(idx) >= p["min_level_touches"]:
+        if now and hammer and p.get("hammer_enabled", True) and len(idx) >= p["min_level_touches"]:
             res.setdefault("stage2", []).append(base(L, touches=len(idx) + 1, lines=seg))
         if now and (len(idx) + 1) in p["stage3_touches"]:
             pts = idx + [t]; ok = True

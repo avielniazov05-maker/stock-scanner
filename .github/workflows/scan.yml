@@ -1,25 +1,39 @@
-name: daily-scan
+name: scan
 on:
   schedule:
-    - cron: "30 21 * * 1-5"   # 21:30 UTC = אחרי סגירה (16:00 ET) גם בשעון חורף וגם בקיץ
+    # פתיחה (09:30 ET) וסגירה (16:00 ET). שתי שעות UTC כל אחת כי GitHub לא מכיר שעון קיץ;
+    # הסקריפט בודק שעה בניו-יורק ושיש נר להיום, ומדלג אם לא (חג / שעה לא נכונה).
+    - cron: "40 13,14 * * 1-5"   # פתיחה: ~09:40 ET
+    - cron: "10 20,21 * * 1-5"   # סגירה: ~16:10 ET
   workflow_dispatch:
+    inputs:
+      mode: { description: "auto|open|close", default: "auto" }
 permissions:
   contents: write
+concurrency: scan
 jobs:
   scan:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: pip install -r requirements.txt
-      - run: python -m scanner.run_scan
+      - name: בדיקת חלון זמן (מדלג על ריצות מחוץ לפתיחה/סגירה)
+        id: gate
+        run: |
+          H=$(TZ=America/New_York date +%H%M)
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            if [ "$H" -ge 0930 ] && [ "$H" -lt 1100 ] || [ "$H" -ge 1605 ] && [ "$H" -lt 1900 ]; then echo run=1 >> $GITHUB_OUTPUT; else echo "מחוץ לחלון ($H ET)"; fi
+          else echo run=1 >> $GITHUB_OUTPUT; fi
+      - if: steps.gate.outputs.run == '1'
+        run: python -m scanner.run_scan --mode ${{ inputs.mode || 'auto' }}
         env:
-          DATA_API_KEY: ${{ secrets.DATA_API_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-      - name: שמירת תוצאות והיסטוריית התראות (מסד SQLite) ב-repo
+      - if: steps.gate.outputs.run == '1'
         run: |
           git config user.name "scanner-bot"; git config user.email "bot@users.noreply.github.com"
-          git add docs/data/results.json data/alerts.db 2>/dev/null || git add docs/data/results.json
-          git diff --staged --quiet || (git commit -m "scan $(date -u +%F)" && git push)
+          git add -f docs/data/results.json data/alerts.db data/universe.json 2>/dev/null || true
+          git diff --staged --quiet || (git commit -m "scan $(date -u +%FT%H:%MZ)" && git pull --rebase -q && git push)

@@ -1,4 +1,5 @@
-import json, sys, os, datetime as dt, yaml
+import json, sys, os, argparse, datetime as dt, yaml
+from zoneinfo import ZoneInfo
 from .providers import get_provider
 from .detect import analyze
 from . import alerts
@@ -21,14 +22,19 @@ def chart(bars, infos):
     return dict(dates=bars.dates[s:], candles=[[round(float(x), 2) for x in r] for r in zip(bars.o[s:], bars.h[s:], bars.l[s:], bars.c[s:])],
                 lines=[[round(v, 2) for v in l] for l in lines])
 
-def main(cfg_path="config/settings.yaml", out="docs/data/results.json", db_path=None):
-    cfg = yaml.safe_load(open(cfg_path)); p = cfg["params"]
+def main(cfg_path="config/settings.yaml", out="docs/data/results.json", db_path=None, mode="auto", force=False):
+    ny = dt.datetime.now(ZoneInfo("America/New_York"))
+    if mode == "auto": mode = "open" if ny.hour < 12 else "close"
+    cfg = yaml.safe_load(open(cfg_path)); p = dict(cfg["params"])
+    if mode == "open": p["hammer_enabled"] = False     # נר פטיש לא רלוונטי לנר חלקי
     prov = get_provider(cfg["provider"], cfg); uni = prov.universe()
     kept = [u for u in uni if passes(u, cfg["filter"])]
     results, rows = {}, {k: [] for k in LABELS}
     asof = None
     for u in kept:
         bars = prov.history(u["ticker"], p["history_days"]); asof = bars.dates[-1]
+        if not force and not prov.is_sample and asof != ny.date().isoformat():
+            print(f"אין נר להיום ({ny.date()}), אחרון: {asof} - השוק סגור/חג. מדלג (--force לעקוף)."); return None
         res = analyze(bars, p)
         if not res: continue
         results[u["ticker"]] = res
@@ -40,7 +46,7 @@ def main(cfg_path="config/settings.yaml", out="docs/data/results.json", db_path=
             rows[st].append(row)
     for k in rows: rows[k].sort(key=lambda r: abs(r["distance_pct"]))
     doc = dict(meta=dict(generated_at=dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"), as_of=asof,
-                         is_sample=prov.is_sample, provider=cfg["provider"], universe=len(uni), passed_filter=len(kept),
+                         mode=mode, partial_bar=(mode == "open"), is_sample=prov.is_sample, provider=cfg["provider"], universe=len(uni), passed_filter=len(kept),
                          params=p, filter=cfg["filter"]), labels=LABELS, stages=rows)
     os.makedirs(os.path.dirname(out), exist_ok=True)
     json.dump(doc, open(out, "w"), ensure_ascii=False)
@@ -51,4 +57,6 @@ def main(cfg_path="config/settings.yaml", out="docs/data/results.json", db_path=
     return doc
 
 if __name__ == "__main__":
-    main()
+    ap = argparse.ArgumentParser(); ap.add_argument("--mode", default="auto", choices=["auto", "open", "close"])
+    ap.add_argument("--force", action="store_true"); ap.add_argument("--config", default="config/settings.yaml")
+    a = ap.parse_args(); main(a.config, mode=a.mode, force=a.force)

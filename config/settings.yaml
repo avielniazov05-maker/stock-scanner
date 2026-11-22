@@ -28,3 +28,10 @@ params:
 alerts:
   cooldown_days: 5             # TBD: לא לשלוח התראה חוזרת על אותה מניה+שלב לפני X ימים
   db_path: data/alerts.db
+
+# אופציונלי: להגביל את הסריקה לרשימת טיקרים (הסר/השאר ריק = כל השוק). לבדיקות מהירות.
+# tickers: [AAPL, MSFT]
+
+universe:                      # מטמון רשימת ה-~1400 שעוברות את הפילטר
+  cache_path: data/universe.json
+  refresh_days: 7              # TBD: כל כמה ימים לבנות מחדש את היקום המלא (איטי)

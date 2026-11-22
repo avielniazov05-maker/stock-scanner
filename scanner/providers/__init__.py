@@ -5,5 +5,6 @@ def get_provider(name: str, cfg: dict | None = None):
         return SampleProvider()
     if name == "yahoo_free":
         from .yahoo_free import YahooFreeProvider
-        return YahooFreeProvider(cfg["filter"], cfg["params"].get("avg_volume_days", 50))
+        return YahooFreeProvider(cfg["filter"], cfg["params"].get("avg_volume_days", 50), only=cfg.get("tickers"),
+                                 **cfg.get("universe", {}))
     raise ValueError(f"ספק לא מוכר: {name}")
