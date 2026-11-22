@@ -5,12 +5,13 @@ filter:
   min_avg_volume: 500000       # נפח ממוצע מעל 500K
   common_stock_only: true      # מניות רגילות בלבד, בלי ETF
 
-provider: sample               # sample | (ספק אמיתי יתווסף)
+provider: sample               # sample | yahoo_free
 
 # ===== פרמטרים שדורשים את ההחלטה שלך =====
 # כל ערך כאן הוא ברירת מחדל זמנית (TBD) - לא הומצא כ"נכון". אשר או שנה.
 params:
   history_days: 250            # TBD: כמה ימי מסחר אחורה לנתח
+  avg_volume_days: 50          # TBD: על כמה ימים מחשבים נפח ממוצע
   pivot_window: 5              # TBD: נר הוא שפל-ציר אם הוא הנמוך ביותר ב-5 נרות לכל צד
   touch_tolerance_pct: 1.0     # TBD: "נגיעה" = הנמוך של הנר בטווח 1% מהתמיכה
   flat_slope_pct: 0.03         # TBD: שיפוע (% ליום) מתחת לערך הזה = תעלה ישרה

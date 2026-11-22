@@ -8,7 +8,7 @@ from .run_scan import passes
 
 def run(cfg_path="config/settings.yaml", horizon=10, step=1):
     cfg = yaml.safe_load(open(cfg_path)); p = cfg["params"]
-    prov = get_provider(cfg["provider"])
+    prov = get_provider(cfg["provider"], cfg)
     stats = {}
     for u in prov.universe():
         if not passes(u, cfg["filter"]): continue   # הערה: פילטר לפי היום, לא היסטורי (הטיית הישרדות - ראו README)

@@ -23,7 +23,7 @@ def chart(bars, infos):
 
 def main(cfg_path="config/settings.yaml", out="docs/data/results.json", db_path=None):
     cfg = yaml.safe_load(open(cfg_path)); p = cfg["params"]
-    prov = get_provider(cfg["provider"]); uni = prov.universe()
+    prov = get_provider(cfg["provider"], cfg); uni = prov.universe()
     kept = [u for u in uni if passes(u, cfg["filter"])]
     results, rows = {}, {k: [] for k in LABELS}
     asof = None
