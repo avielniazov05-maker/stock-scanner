@@ -29,15 +29,10 @@ fetch('data/results.json?'+Date.now()).then(r=>r.json()).then(d=>{D=d;
  Object.keys(d.labels).forEach(k=>{const b=document.createElement('button');
   b.textContent=`${d.labels[k]} (${d.stages[k].length})`;b.onclick=()=>show(k);b.dataset.k=k;t.appendChild(b)});
  show(Object.keys(d.labels)[0]);});
-const FV='https://finviz.com/screener.ashx?v=211&f=cap_midover,sh_price_o10,sh_avgvol_o500,ind_stocksonly';
-const FVP={stage1_ascending:[['Channel Up','ta_pattern_channelup']],stage1_descending:[['Channel Down','ta_pattern_channeldown']],
- stage1_flat:[['Channel','ta_pattern_channel']],stage2:[['Horizontal S/R + Hammer','ta_pattern_horizontal,ta_candlestick_h']],
- stage3:[['Horizontal S/R','ta_pattern_horizontal']],stage4:[['Double Bottom','ta_pattern_doublebottom'],['Multiple Bottom','ta_pattern_multiplebottom']]};
 function show(k){cur=k;document.querySelectorAll('nav button').forEach(b=>b.classList.toggle('on',b.dataset.k===k));
  const rows=D.stages[k],M=document.getElementById('main');
- const fl=`<p style="font-size:13px">אותו סינון בסורק החינמי של Finviz: ${FVP[k].map(x=>`<a href="${FV},${x[1]}" target="_blank">${x[0]}</a>`).join(' · ')} <span style="color:#667">(הדפוסים הם של Finviz)</span></p>`;
- if(!rows.length){M.innerHTML=fl+'<div class="empty">אין מניות שעוברות את השלב הזה בסריקה האחרונה.</div>';return}
- M.innerHTML=fl+'<table><tr><th>מניה</th><th>מחיר</th><th>תמיכה (חישוב הסורק)</th><th>מרחק %</th><th>נגיעות</th><th>קישורים</th></tr>'+
+ if(!rows.length){M.innerHTML='<div class="empty">אין מניות שעוברות את השלב הזה בסריקה האחרונה.</div>';return}
+ M.innerHTML='<table><tr><th>מניה</th><th>מחיר</th><th>תמיכה (חישוב הסורק)</th><th>מרחק %</th><th>נגיעות</th><th>קישורים</th></tr>'+
  rows.map((r,i)=>`<tr class="row" onclick="chartRow(${i})"><td><b>${r.ticker}</b>${r.bonus.map(b=>`<span class="bonus" title="${b}">בונוס</span>`).join('')}${r.kind?` (${r.kind==='double'?'כפולה':'משולשת'})`:''}</td>
  <td>${fmt(r.price)}</td><td>${fmt(r.support)}</td><td dir="ltr" style="text-align:right">${fmt(r.distance_pct)}%</td><td>${r.touches??'-'}</td>
  <td><a href="${r.finviz}" target="_blank" onclick="event.stopPropagation()">Finviz</a> · <a href="${r.tradingview}" target="_blank" onclick="event.stopPropagation()">TradingView</a></td></tr>

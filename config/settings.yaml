@@ -13,15 +13,15 @@ params:
   history_days: 250            # TBD: כמה ימי מסחר אחורה לנתח
   avg_volume_days: 50          # TBD: על כמה ימים מחשבים נפח ממוצע
   pivot_window: 5              # TBD: נר הוא שפל-ציר אם הוא הנמוך ביותר ב-5 נרות לכל צד
-  touch_tolerance_pct: 0.5     # TBD: "נגיעה" = הנמוך של הנר בטווח 1% מהתמיכה
+  touch_tolerance_pct: 1.0     # TBD: "נגיעה" = הנמוך של הנר בטווח 1% מהתמיכה
   flat_slope_pct: 0.03         # TBD: שיפוע (% ליום) מתחת לערך הזה = תעלה ישרה
-  min_line_touches: 3          # TBD: מינימום שפלי-ציר על קו התמיכה
-  min_line_span_bars: 20       # TBD: מרחק מינימלי (בנרות) בין שתי נקודות שמגדירות קו
+  min_line_touches: 2          # TBD: מינימום שפלי-ציר על קו התמיכה
+  min_line_span_bars: 10       # TBD: מרחק מינימלי (בנרות) בין שתי נקודות שמגדירות קו
   min_level_touches: 2         # TBD: מינימום שפלי-ציר שמגדירים רמת תמיכה אופקית (שלב 2)
   line_lookback_pivots: 6      # TBD: כמה שפלי-ציר אחרונים נבדקים לקו
   hammer_lower_shadow_x: 2.0   # TBD: צל תחתון >= פי 2 מהגוף
   hammer_upper_shadow_max_x: 0.5   # TBD: צל עליון <= חצי מהגוף (או פחות מ-10% מהטווח בגוף זעיר)
-  bounce_pct: 5.0              # TBD: "עלה" = עלייה של לפחות 3% מהתמיכה בין נגיעות
+  bounce_pct: 3.0              # TBD: "עלה" = עלייה של לפחות 3% מהתמיכה בין נגיעות
   stage3_touches: [2, 3, 4]    # כפי שהוגדר
   stage4_proximity_pct: 2.0    # TBD: עד כמה המחיר צריך להיות קרוב לתמיכה כפולה/משולשת
 
