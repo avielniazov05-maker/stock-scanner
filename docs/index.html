@@ -22,6 +22,19 @@ tr.row.sel{background:#dbe6ff}
 #pop button{border:0;background:#eee;border-radius:6px;padding:4px 10px;cursor:pointer;font-size:16px}
 #pop .pb{background:#f1c40f33;padding:3px 8px;border-radius:5px;font-size:13px;margin-bottom:6px}
 #pop .pf{font-size:13px;color:#445;margin-top:6px}
+
+@media(max-width:700px){
+ header{padding:10px 14px}.meta{padding:0 14px}nav{padding:10px 14px}main{padding:0 14px 24px}
+ nav button{flex:1 1 45%;font-size:13px;padding:8px 6px}
+ table,tbody{display:block}tr:first-child{display:none}
+ tr.row{display:grid;grid-template-columns:1fr 1fr;gap:2px 10px;background:#fff;margin-bottom:8px;border:1px solid #e0e3e9;border-radius:10px;padding:10px}
+ tr.row td{display:flex;justify-content:space-between;border:0;padding:3px 0;font-size:14px}
+ tr.row td:first-child{grid-column:1/3;font-size:17px}
+ tr.row td[data-l]::before{content:attr(data-l);color:#667;margin-inline-end:8px}
+ tr.row td[data-l="קישורים"]{grid-column:1/3;justify-content:flex-start;gap:6px}
+ #pop{left:0;right:0;bottom:0;top:auto;width:auto;max-height:85vh;overflow:auto;border-radius:14px 14px 0 0}
+ body.pop-open main{padding-bottom:70vh}
+}
 </style></head><body>
 <header><b>סורק תמיכות – מניות אמריקאיות</b></header>
 <div id="banner"></div><div class="meta" id="meta"></div><nav id="tabs"></nav><main id="main"></main>
@@ -42,19 +55,19 @@ function show(k){cur=k;closePop();document.querySelectorAll('nav button').forEac
  if(!rows.length){M.innerHTML='<div class="empty">אין מניות שעוברות את השלב הזה בסריקה האחרונה.</div>';return}
  M.innerHTML='<table><tr><th>מניה</th><th>מחיר</th><th>תמיכה (חישוב הסורק)</th><th>מרחק %</th><th>נגיעות</th><th>קישורים</th></tr>'+
  rows.map((r,i)=>`<tr class="row" onclick="chartRow(${i})"><td><b>${r.ticker}</b>${r.bonus.map(b=>`<span class="bonus" title="${b}">בונוס</span>`).join('')}${r.kind?` (${r.kind==='double'?'כפולה':'משולשת'})`:''}</td>
- <td>${fmt(r.price)}</td><td>${fmt(r.support)}</td><td dir="ltr" style="text-align:right">${fmt(r.distance_pct)}%</td><td>${r.touches??'-'}</td>
- <td><a href="${r.finviz}" target="_blank" onclick="event.stopPropagation()">Finviz</a> · <a href="${r.tradingview}" target="_blank" onclick="event.stopPropagation()">TradingView</a></td></tr>`).join('')+'</table>'}
+ <td data-l="מחיר">${fmt(r.price)}</td><td data-l="תמיכה">${fmt(r.support)}</td><td dir="ltr" data-l="מרחק" style="text-align:right">${fmt(r.distance_pct)}%</td><td data-l="נגיעות">${r.touches??'-'}</td>
+ <td data-l="קישורים"><a href="${r.finviz}" target="_blank" onclick="event.stopPropagation()">Finviz</a> · <a href="${r.tradingview}" target="_blank" onclick="event.stopPropagation()">TradingView</a></td></tr>`).join('')+'</table>'}
 function chartRow(i){
  const r=D.stages[cur][i];
  document.querySelectorAll('tr.row.sel').forEach(x=>x.classList.remove('sel'));
  document.querySelectorAll('tr.row')[i].classList.add('sel');
- const p=document.getElementById('pop');p.style.display='block';        // חלון יחיד: פתיחה חדשה מחליפה את הקודם
+ const p=document.getElementById('pop');p.style.display='block';document.body.classList.add('pop-open');        // חלון יחיד: פתיחה חדשה מחליפה את הקודם
  p.innerHTML=`<div class="ph"><b>${r.ticker}</b> · ${r.name} <button onclick="closePop()" title="סגור">✕</button></div>
   ${r.bonus.length?`<div class="pb">בונוס – עובר גם: ${r.bonus.join(', ')}</div>`:''}
   <img alt="${r.ticker} – גרף Finviz" src="https://charts2.finviz.com/chart.ashx?t=${r.ticker}&ty=c&ta=0&p=d&s=l">
   <div class="pf">מחיר ${fmt(r.price)} · תמיכה ${fmt(r.support)} · מרחק ${fmt(r.distance_pct)}% · נגיעות ${r.touches??'-'}<br>
   הגרף של Finviz עצמו. לא נטען? <a href="${r.finviz}" target="_blank">פתח ב-Finviz</a> · <a href="${r.tradingview}" target="_blank">TradingView</a></div>`}
-function closePop(){document.getElementById('pop').style.display='none';
+function closePop(){document.getElementById('pop').style.display='none';document.body.classList.remove('pop-open');
  document.querySelectorAll('tr.row.sel').forEach(x=>x.classList.remove('sel'))}
 document.addEventListener('keydown',e=>{if(e.key==='Escape')closePop()});
 function draw(cv,c){const g=cv.getContext('2d'),W=cv.width,H=cv.height,n=c.candles.length;
