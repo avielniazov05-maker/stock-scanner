@@ -92,6 +92,7 @@ def levels(bars, piv, t, p):
     out = []
     for g in groups:
         g = sorted(g); L = float(np.mean([bars.l[i] for i in g])); a = g[0]
+        if t - a < p.get("min_level_age_bars", 0): continue      # רמה חדשה מדי = לא תמיכה מבוססת
         eps = episodes(bars, a, t, np.full(t - a + 1, L), p)
         if eps: out.append(dict(level=L, start=a, eps=eps))
     return out
@@ -142,6 +143,13 @@ def analyze(bars, p, t=None, _confirm=True):
             res.setdefault("stage4", []).append(base(L, touches=n, kind="double" if n == 2 else "triple", lines=seg))
     for k in ("stage2", "stage3", "stage4"):
         if k in res: res[k] = max(res[k], key=lambda r: (r["touches"], -abs(r["distance_pct"])))
+    mx = p.get("max_candle_dist_pct")
+    if mx is not None:                       # "בול על הקו": הקו עובר דרך הנר, או שהנר עד mx% ממנו
+        for k in [k for k in res if k != "confirmed"]:
+            s = res[k]["support"]
+            cd = 0.0 if bars.l[t] <= s <= bars.h[t] else min(abs(bars.l[t] - s), abs(bars.h[t] - s)) / s * 100
+            res[k]["candle_dist_pct"] = cd
+            if cd > mx: del res[k]
     if _confirm:
         cf = confirmed(bars, p, t)
         if cf: res["confirmed"] = cf
